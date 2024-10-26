@@ -28,7 +28,7 @@ if not os.path.exists(models_dir):
 env = SnakeGameEnv(
     dbg_report_dir      =   report_dir + "/" + date_str + "_" + env_str + "_" + algo_str + "_" + run_str + ".txt",
     render_run_str      =   run_str, 
-    render_mode         =   "rgb_array"
+    render_mode         =   "human"
 )
 env.reset()
 

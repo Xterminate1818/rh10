@@ -1,14 +1,10 @@
-# SentdexRLTutorials
+# Reinforcement Learning
 
-**The Active Directory for this Repo:** [exp_3](Source/exp_3)
-
-This repo followed the 4-part tutorial series by [Sentdex](https://www.youtube.com/@sentdex) on YouTube, [Reinforcement Learning with Stable Baselines 3](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf0O2DWwLZBfJeYY-JOeZB1). The Sentdex tutorials are what provided me with the know-how for utilizing a *Snake Game* environment. 
+This repo followed the 4-part tutorial series by [Sentdex](https://www.youtube.com/@sentdex) on YouTube, [Reinforcement Learning with Stable Baselines 3](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf0O2DWwLZBfJeYY-JOeZB1). The Sentdex tutorials are what provided me with the know-how for developing a *Snake Game* environment. 
 
 After completing the Sentex tutorials I continued to develop the code-base with rewrites, refactors, and upgrades to make things easier in the long term. 
 
 The code-base now serves as a means of training and evaluating a RL agent against a Snake Game environment. 
-
-Currently, I am making changes iteratively to the observation space of the agent and reward function used by the environment in search of an adequate configuration that results in an intelligent agent.
 
 ## Getting Started
 
@@ -61,7 +57,7 @@ To get started with this repo, here's a list of next steps.
 ## Open this repo in [VS Code](https://code.visualstudio.com/download) as a workspace
 
 - Open VS Code and click `File`, then `Open Workspace from File`
-- Navigate to where you extracted this repo and select the file, `SentdexRLTutorials.code-workspace`
+- Navigate to where you extracted this repo and select the file, `reinforcementlearning.code-workspace`
 
 ## Download and install [Python](https://www.python.org/downloads/release/python-3913/)
 
@@ -75,9 +71,9 @@ In this repo, I use [Python 3.9.13](https://www.python.org/downloads/release/pyt
 
 - In VS Code, open a terminal, make sure it is a CMD terminal
 - utilizing the ```dir```/```cd``` commands, navigate to your VENV folder in your workspace folder
-- type ```python -m venv ./sentdexrltutorials``` and press enter
+- type ```python -m venv ./reinforcementlearning``` and press enter
     - **WARNING:** If you have multiple versions of Python installed on your machine and want to ensure your VENV is using Python 3.9.13:
-        - type ```python3.9.13 -m venv ./sentdexrltutorials``` and press enter
+        - type ```python3.9.13 -m venv ./reinforcementlearning``` and press enter
 
 If you want to re-do this step, navigate to the VENV folder inside the workspace directory and manually delete the VENV that you want to re-do.
 
@@ -89,7 +85,7 @@ If you want to re-do this step, navigate to the VENV folder inside the workspace
 - utilizing the ```dir```/```cd``` commands, navigate to the "Scripts" folder
 - run the "activate" script by typing ```activate``` into the terminal and pressing enter
 
-You should see ```(sentdexrltutorials)``` appear on the far left of your terminal command line, this means the virtual environment is active.
+You should see ```(reinforcementlearning)``` appear on the far left of your terminal command line, this means the virtual environment is active.
 
 ## Checking your Python version
 
