@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"workbench.colorCustomizations": {
+			"editor.foldBackground": "#ff000000"
+		},
+	}
+}

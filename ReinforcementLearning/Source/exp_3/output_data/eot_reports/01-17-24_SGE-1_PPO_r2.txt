@@ -1,0 +1,3431 @@
+----- TRAINING REPORT -----
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 0
+(0, 4658, 4658) - NEW Episode HS: 1
+(0, 5110, 5110) - - - - - Repeat Episode HS: 1
+(0, 8716, 8716) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 1
+(1, 541, 10541) - NEW Episode HS: 1
+(1, 1064, 11064) - - - - - Repeat Episode HS: 1
+(1, 1277, 11277) - - - - - Repeat Episode HS: 1
+(1, 2579, 12579) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 2
+(2, 1195, 21195) - NEW Episode HS: 1
+(2, 8932, 28932) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 3
+(3, 2185, 32185) - NEW Episode HS: 1
+(3, 4277, 34277) - - - - - Repeat Episode HS: 1
+(3, 5908, 35908) - - - - - Repeat Episode HS: 1
+(3, 9607, 39607) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 4
+(4, 6228, 46228) - NEW Episode HS: 1
+(4, 8093, 48093) - - - - - Repeat Episode HS: 1
+(4, 8138, 48138) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 5
+(5, 3932, 53932) - NEW Episode HS: 1
+(5, 9606, 59606) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 6
+(6, 649, 60649) - NEW Episode HS: 1
+(6, 4732, 64732) - - - - - Repeat Episode HS: 1
+(6, 5785, 65785) - - - - - Repeat Episode HS: 1
+(6, 5929, 65929) - - - - - Repeat Episode HS: 1
+(6, 7510, 67510) - - - - - Repeat Episode HS: 1
+(6, 8339, 68339) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 7
+(7, 5555, 75555) - NEW Episode HS: 1
+(7, 7627, 77627) - - - - - Repeat Episode HS: 1
+(7, 7923, 77923) - - - - - Repeat Episode HS: 1
+(7, 9754, 79754) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 8
+(8, 3803, 83803) - NEW Episode HS: 1
+(8, 7671, 87671) - - - - - Repeat Episode HS: 1
+(8, 7842, 87842) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 9
+(9, 3795, 93795) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 10
+(10, 3014, 103014) - NEW Episode HS: 1
+(10, 3127, 103127) - - - - - Repeat Episode HS: 1
+(10, 5873, 105873) - - - - - Repeat Episode HS: 1
+(10, 6361, 106361) - - - - - Repeat Episode HS: 1
+(10, 8716, 108716) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 11
+(11, 2542, 112542) - NEW Episode HS: 1
+(11, 3731, 113731) - - - - - Repeat Episode HS: 1
+(11, 6013, 116013) - - - - - Repeat Episode HS: 1
+(11, 8684, 118684) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 12
+(12, 791, 120791) - NEW Episode HS: 1
+(12, 3364, 123364) - - - - - Repeat Episode HS: 1
+(12, 4032, 124032) - - - - - Repeat Episode HS: 1
+(12, 4705, 124705) - - - - - Repeat Episode HS: 1
+(12, 5910, 125910) - - - - - Repeat Episode HS: 1
+(12, 7008, 127008) - - - - - Repeat Episode HS: 1
+(12, 8418, 128418) - - - - - Repeat Episode HS: 1
+(12, 8533, 128533) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 13
+(13, 3227, 133227) - NEW Episode HS: 1
+(13, 4557, 134557) - - - - - Repeat Episode HS: 1
+(13, 4623, 134623) - - - - - Repeat Episode HS: 1
+(13, 5371, 135371) - - - - - Repeat Episode HS: 1
+(13, 6719, 136719) - - - - - Repeat Episode HS: 1
+(13, 8524, 138524) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 14
+(14, 1302, 141302) - NEW Episode HS: 1
+(14, 4145, 144145) - - - - - Repeat Episode HS: 1
+(14, 4572, 144572) - - - - - Repeat Episode HS: 1
+(14, 4856, 144856) - - - - - Repeat Episode HS: 1
+(14, 5224, 145224) - - - - - Repeat Episode HS: 1
+(14, 5235, 145235) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 15
+(15, 5950, 155950) - NEW Episode HS: 1
+(15, 8066, 158066) - - - - - Repeat Episode HS: 1
+(15, 9665, 159665) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 16
+(16, 21, 160021) - NEW Episode HS: 1
+(16, 3031, 163031) - - - - - Repeat Episode HS: 1
+(16, 7058, 167058) - - - - - Repeat Episode HS: 1
+(16, 7093, 167093) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 17
+(17, 2068, 172068) - NEW Episode HS: 1
+(17, 2722, 172722) - - - - - Repeat Episode HS: 1
+(17, 3104, 173104) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 18
+(18, 700, 180700) - NEW Episode HS: 1
+(18, 7228, 187228) - - - - - Repeat Episode HS: 1
+(18, 7264, 187264) - - - - - Repeat Episode HS: 1
+(18, 7714, 187714) - - - - - Repeat Episode HS: 1
+(18, 8256, 188256) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 19
+(19, 8926, 198926) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 20
+(20, 1723, 201723) - NEW Episode HS: 1
+(20, 3853, 203853) - - - - - Repeat Episode HS: 1
+(20, 3990, 203990) - - - - - Repeat Episode HS: 1
+(20, 5003, 205003) - - - - - Repeat Episode HS: 1
+(20, 9060, 209060) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 21
+(21, 2419, 212419) - NEW Episode HS: 1
+(21, 3078, 213078) - - - - - Repeat Episode HS: 1
+(21, 3451, 213451) - - - - - Repeat Episode HS: 1
+(21, 4675, 214675) - - - - - Repeat Episode HS: 1
+(21, 8115, 218115) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 22
+(22, 6615, 226615) - NEW Episode HS: 1
+(22, 7195, 227195) - - - - - Repeat Episode HS: 1
+(22, 9909, 229909) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 23
+(23, 852, 230852) - NEW Episode HS: 1
+(23, 1388, 231388) - - - - - Repeat Episode HS: 1
+(23, 3732, 233732) - - - - - Repeat Episode HS: 1
+(23, 4247, 234247) - - - - - Repeat Episode HS: 1
+(23, 4895, 234895) - - - - - Repeat Episode HS: 1
+(23, 5576, 235576) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 24
+(24, 3461, 243461) - NEW Episode HS: 1
+(24, 5860, 245860) - - - - - Repeat Episode HS: 1
+(24, 7779, 247779) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 25
+(25, 557, 250557) - NEW Episode HS: 1
+(25, 1176, 251176) - - - - - Repeat Episode HS: 1
+(25, 1300, 251300) - - - - - Repeat Episode HS: 1
+(25, 3139, 253139) - - - - - Repeat Episode HS: 1
+(25, 3473, 253473) - - - - - Repeat Episode HS: 1
+(25, 7581, 257581) - - - - - Repeat Episode HS: 1
+(25, 8982, 258982) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 26
+(26, 611, 260611) - NEW Episode HS: 1
+(26, 7156, 267156) - - - - - Repeat Episode HS: 1
+(26, 7554, 267554) - - - - - Repeat Episode HS: 1
+(26, 7952, 267952) - - - - - Repeat Episode HS: 1
+(26, 8308, 268308) - - - - - Repeat Episode HS: 1
+(26, 9483, 269483) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 27
+(27, 1729, 271729) - NEW Episode HS: 1
+(27, 8333, 278333) - - - - - Repeat Episode HS: 1
+(27, 9799, 279799) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 28
+(28, 561, 280561) - NEW Episode HS: 1
+(28, 818, 280818) - - - - - Repeat Episode HS: 1
+(28, 3246, 283246) - - - - - Repeat Episode HS: 1
+(28, 4106, 284106) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 29
+(29, 1299, 291299) - NEW Episode HS: 1
+(29, 2880, 292880) - - - - - Repeat Episode HS: 1
+(29, 3525, 293525) - - - - - Repeat Episode HS: 1
+(29, 3708, 293708) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 30
+(30, 6027, 306027) - NEW Episode HS: 1
+(30, 7744, 307744) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 31
+(31, 3608, 313608) - NEW Episode HS: 1
+(31, 4346, 314346) - - - - - Repeat Episode HS: 1
+(31, 6831, 316831) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 32
+(32, 4101, 324101) - NEW Episode HS: 1
+(32, 4730, 324730) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 33
+(33, 1807, 331807) - NEW Episode HS: 1
+(33, 2705, 332705) - - - - - Repeat Episode HS: 1
+(33, 4390, 334390) - - - - - Repeat Episode HS: 1
+(33, 4942, 334942) - - - - - Repeat Episode HS: 1
+(33, 5650, 335650) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 34
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 35
+(35, 3675, 353675) - NEW Episode HS: 1
+(35, 5799, 355799) - - - - - Repeat Episode HS: 1
+(35, 6082, 356082) - - - - - Repeat Episode HS: 1
+(35, 6996, 356996) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 36
+(36, 1735, 361735) - NEW Episode HS: 1
+(36, 3276, 363276) - - - - - Repeat Episode HS: 1
+(36, 3870, 363870) - - - - - Repeat Episode HS: 1
+(36, 3955, 363955) - - - - - Repeat Episode HS: 1
+(36, 6642, 366642) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 37
+(37, 876, 370876) - NEW Episode HS: 1
+(37, 3935, 373935) - - - - - Repeat Episode HS: 1
+(37, 4725, 374725) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 38
+(38, 904, 380904) - NEW Episode HS: 1
+(38, 2849, 382849) - - - - - Repeat Episode HS: 1
+(38, 5655, 385655) - - - - - Repeat Episode HS: 1
+(38, 9326, 389326) - - - - - Repeat Episode HS: 1
+(38, 9341, 389341) - - - - - Repeat Episode HS: 1
+(38, 9529, 389529) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 39
+(39, 2518, 392518) - NEW Episode HS: 1
+(39, 2988, 392988) - - - - - Repeat Episode HS: 1
+(39, 5897, 395897) - - - - - Repeat Episode HS: 1
+(39, 7615, 397615) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 40
+(40, 770, 400770) - NEW Episode HS: 1
+(40, 1112, 401112) - - - - - Repeat Episode HS: 1
+(40, 1235, 401235) - - - - - Repeat Episode HS: 1
+(40, 2450, 402450) - - - - - Repeat Episode HS: 1
+(40, 2866, 402866) - - - - - Repeat Episode HS: 1
+(40, 6890, 406890) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 41
+(41, 1139, 411139) - NEW Episode HS: 1
+(41, 1979, 411979) - - - - - Repeat Episode HS: 1
+(41, 4557, 414557) - - - - - Repeat Episode HS: 1
+(41, 6580, 416580) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 42
+(42, 4439, 424439) - NEW Episode HS: 1
+(42, 6528, 426528) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 43
+(43, 4138, 434138) - NEW Episode HS: 1
+(43, 7398, 437398) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 44
+(44, 2082, 442082) - NEW Episode HS: 1
+(44, 2490, 442490) - - - - - Repeat Episode HS: 1
+(44, 4622, 444622) - - - - - Repeat Episode HS: 1
+(44, 5873, 445873) - - - - - Repeat Episode HS: 1
+(44, 9468, 449468) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 45
+(45, 4447, 454447) - NEW Episode HS: 1
+(45, 9753, 459753) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 46
+(46, 755, 460755) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 47
+(47, 2954, 472954) - NEW Episode HS: 1
+(47, 9258, 479258) - - - - - Repeat Episode HS: 1
+(47, 9459, 479459) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 48
+(48, 1542, 481542) - NEW Episode HS: 1
+(48, 2311, 482311) - - - - - Repeat Episode HS: 1
+(48, 5956, 485956) - - - - - Repeat Episode HS: 1
+(48, 8871, 488871) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 49
+(49, 3428, 493428) - NEW Episode HS: 1
+(49, 3658, 493658) - - - - - Repeat Episode HS: 1
+(49, 6856, 496856) - - - - - Repeat Episode HS: 1
+(49, 8911, 498911) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 50
+(50, 3565, 503565) - NEW Episode HS: 1
+(50, 4740, 504740) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 51
+(51, 715, 510715) - NEW Episode HS: 1
+(51, 2501, 512501) - - - - - Repeat Episode HS: 1
+(51, 6993, 516993) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 52
+(52, 1279, 521279) - NEW Episode HS: 1
+(52, 1780, 521780) - - - - - Repeat Episode HS: 1
+(52, 2917, 522917) - - - - - Repeat Episode HS: 1
+(52, 5936, 525936) - - - - - Repeat Episode HS: 1
+(52, 7906, 527906) - - - - - Repeat Episode HS: 1
+(52, 9826, 529826) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 53
+(53, 1206, 531206) - NEW Episode HS: 1
+(53, 1657, 531657) - - - - - Repeat Episode HS: 1
+(53, 8788, 538788) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 54
+(54, 108, 540108) - NEW Episode HS: 1
+(54, 1556, 541556) - - - - - Repeat Episode HS: 1
+(54, 4656, 544656) - - - - - Repeat Episode HS: 1
+(54, 9488, 549488) - - - - - Repeat Episode HS: 1
+(54, 9523, 549523) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 55
+(55, 475, 550475) - NEW Episode HS: 1
+(55, 2440, 552440) - - - - - Repeat Episode HS: 1
+(55, 4397, 554397) - - - - - Repeat Episode HS: 1
+(55, 4761, 554761) - - - - - Repeat Episode HS: 1
+(55, 5196, 555196) - - - - - Repeat Episode HS: 1
+(55, 5964, 555964) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 56
+(56, 57, 560057) - NEW Episode HS: 1
+(56, 379, 560379) - - - - - Repeat Episode HS: 1
+(56, 441, 560441) - - - - - Repeat Episode HS: 1
+(56, 1389, 561389) - - - - - Repeat Episode HS: 1
+(56, 1653, 561653) - - - - - Repeat Episode HS: 1
+(56, 7874, 567874) - - - - - Repeat Episode HS: 1
+(56, 9144, 569144) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 57
+(57, 2760, 572760) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 58
+(58, 1945, 581945) - NEW Episode HS: 1
+(58, 4788, 584788) - - - - - Repeat Episode HS: 1
+(58, 5184, 585184) - - - - - Repeat Episode HS: 1
+(58, 6211, 586211) - - - - - Repeat Episode HS: 1
+(58, 7138, 587138) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 59
+(59, 3165, 593165) - NEW Episode HS: 1
+(59, 8108, 598108) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 60
+(60, 6595, 606595) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 61
+(61, 5688, 615688) - NEW Episode HS: 1
+(61, 9744, 619744) - - - - - Repeat Episode HS: 1
+(61, 9914, 619914) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 62
+(62, 3763, 623763) - NEW Episode HS: 1
+(62, 6230, 626230) - - - - - Repeat Episode HS: 1
+(62, 6639, 626639) - - - - - Repeat Episode HS: 1
+(62, 9845, 629845) - - - - - Repeat Episode HS: 1
+(62, 9971, 629971) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 63
+(63, 4640, 634640) - NEW Episode HS: 1
+(63, 7288, 637288) - - - - - Repeat Episode HS: 1
+(63, 7527, 637527) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 64
+(64, 4165, 644165) - NEW Episode HS: 1
+(64, 5698, 645698) - - - - - Repeat Episode HS: 1
+(64, 6571, 646571) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 65
+(65, 1463, 651463) - NEW Episode HS: 1
+(65, 2570, 652570) - - - - - Repeat Episode HS: 1
+(65, 7005, 657005) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 66
+(66, 4626, 664626) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 67
+(67, 9103, 679103) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 68
+(68, 2542, 682542) - NEW Episode HS: 1
+(68, 4639, 684639) - - - - - Repeat Episode HS: 1
+(68, 5904, 685904) - - - - - Repeat Episode HS: 1
+(68, 8331, 688331) - - - - - Repeat Episode HS: 1
+(68, 8761, 688761) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 69
+(69, 3604, 693604) - NEW Episode HS: 1
+(69, 3618, 693618) - - - - - Repeat Episode HS: 1
+(69, 8271, 698271) - - - - - Repeat Episode HS: 1
+(69, 9410, 699410) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 70
+(70, 2629, 702629) - NEW Episode HS: 1
+(70, 3528, 703528) - - - - - Repeat Episode HS: 1
+(70, 4579, 704579) - - - - - Repeat Episode HS: 1
+(70, 6193, 706193) - - - - - Repeat Episode HS: 1
+(70, 6942, 706942) - - - - - Repeat Episode HS: 1
+(70, 8288, 708288) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 71
+(71, 228, 710228) - NEW Episode HS: 1
+(71, 1146, 711146) - - - - - Repeat Episode HS: 1
+(71, 2421, 712421) - - - - - Repeat Episode HS: 1
+(71, 5003, 715003) - - - - - Repeat Episode HS: 1
+(71, 7721, 717721) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 72
+(72, 1948, 721948) - NEW Episode HS: 1
+(72, 5536, 725536) - - - - - Repeat Episode HS: 1
+(72, 6810, 726810) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 73
+(73, 1364, 731364) - NEW Episode HS: 1
+(73, 2306, 732306) - - - - - Repeat Episode HS: 1
+(73, 2757, 732757) - - - - - Repeat Episode HS: 1
+(73, 3722, 733722) - - - - - Repeat Episode HS: 1
+(73, 4345, 734345) - - - - - Repeat Episode HS: 1
+(73, 9342, 739342) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 74
+(74, 834, 740834) - NEW Episode HS: 1
+(74, 2514, 742514) - - - - - Repeat Episode HS: 1
+(74, 2907, 742907) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 75
+(75, 884, 750884) - NEW Episode HS: 1
+(75, 3425, 753425) - - - - - Repeat Episode HS: 1
+(75, 3568, 753568) - - - - - Repeat Episode HS: 1
+(75, 6399, 756399) - - - - - Repeat Episode HS: 1
+(75, 7642, 757642) - - - - - Repeat Episode HS: 1
+(75, 9526, 759526) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 76
+(76, 2762, 762762) - NEW Episode HS: 1
+(76, 5384, 765384) - - - - - Repeat Episode HS: 1
+(76, 6466, 766466) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 77
+(77, 439, 770439) - NEW Episode HS: 1
+(77, 1154, 771154) - - - - - Repeat Episode HS: 1
+(77, 3612, 773612) - - - - - Repeat Episode HS: 1
+(77, 4942, 774942) - - - - - Repeat Episode HS: 1
+(77, 8227, 778227) - - - - - Repeat Episode HS: 1
+(77, 8792, 778792) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 78
+(78, 5591, 785591) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 79
+(79, 8348, 798348) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 80
+(80, 2241, 802241) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 81
+(81, 5714, 815714) - NEW Episode HS: 1
+(81, 8875, 818875) - - - - - Repeat Episode HS: 1
+(81, 9283, 819283) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 82
+(82, 3067, 823067) - NEW Episode HS: 1
+(82, 6439, 826439) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 83
+(83, 1617, 831617) - NEW Episode HS: 1
+(83, 1794, 831794) - - - - - Repeat Episode HS: 1
+(83, 9449, 839449) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 84
+(84, 517, 840517) - NEW Episode HS: 1
+(84, 9812, 849812) - - - - - Repeat Episode HS: 1
+(84, 9867, 849867) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 85
+(85, 1689, 851689) - NEW Episode HS: 1
+(85, 2912, 852912) - - - - - Repeat Episode HS: 1
+(85, 7807, 857807) - - - - - Repeat Episode HS: 1
+(85, 8095, 858095) - - - - - Repeat Episode HS: 1
+(85, 9162, 859162) - - - - - Repeat Episode HS: 1
+(85, 9306, 859306) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 86
+(86, 1268, 861268) - NEW Episode HS: 1
+(86, 2734, 862734) - - - - - Repeat Episode HS: 1
+(86, 2866, 862866) - - - - - Repeat Episode HS: 1
+(86, 5867, 865867) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 87
+(87, 787, 870787) - NEW Episode HS: 1
+(87, 3273, 873273) - - - - - Repeat Episode HS: 1
+(87, 6387, 876387) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 88
+(88, 6009, 886009) - NEW Episode HS: 1
+(88, 7247, 887247) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 89
+(89, 1398, 891398) - NEW Episode HS: 1
+(89, 3503, 893503) - - - - - Repeat Episode HS: 1
+(89, 6039, 896039) - - - - - Repeat Episode HS: 1
+(89, 8044, 898044) - - - - - Repeat Episode HS: 1
+(89, 8222, 898222) - - - - - Repeat Episode HS: 1
+(89, 8381, 898381) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 90
+(90, 832, 900832) - NEW Episode HS: 1
+(90, 1186, 901186) - - - - - Repeat Episode HS: 1
+(90, 4917, 904917) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 91
+(91, 508, 910508) - NEW Episode HS: 1
+(91, 7562, 917562) - - - - - Repeat Episode HS: 1
+(91, 8045, 918045) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 92
+(92, 1132, 921132) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 93
+(93, 396, 930396) - NEW Episode HS: 1
+(93, 2023, 932023) - - - - - Repeat Episode HS: 1
+(93, 5816, 935816) - - - - - Repeat Episode HS: 1
+(93, 8088, 938088) - - - - - Repeat Episode HS: 1
+(93, 9051, 939051) - - - - - Repeat Episode HS: 1
+(93, 9877, 939877) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 94
+(94, 2631, 942631) - NEW Episode HS: 1
+(94, 7304, 947304) - - - - - Repeat Episode HS: 1
+(94, 8281, 948281) - - - - - Repeat Episode HS: 1
+(94, 9339, 949339) - - - - - Repeat Episode HS: 1
+(94, 9751, 949751) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 95
+(95, 2636, 952636) - NEW Episode HS: 1
+(95, 4439, 954439) - - - - - Repeat Episode HS: 1
+(95, 7781, 957781) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 96
+(96, 26, 960026) - NEW Episode HS: 1
+(96, 7565, 967565) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 97
+(97, 4724, 974724) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 98
+(98, 9561, 989561) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 99
+(99, 1502, 991502) - NEW Episode HS: 1
+(99, 1963, 991963) - - - - - Repeat Episode HS: 1
+(99, 5831, 995831) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 100
+(100, 6002, 1006002) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 101
+(101, 1741, 1011741) - NEW Episode HS: 1
+(101, 6164, 1016164) - - - - - Repeat Episode HS: 1
+(101, 6454, 1016454) - - - - - Repeat Episode HS: 1
+(101, 9185, 1019185) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 102
+(102, 3942, 1023942) - NEW Episode HS: 1
+(102, 4913, 1024913) - - - - - Repeat Episode HS: 1
+(102, 6549, 1026549) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 103
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 104
+(104, 1669, 1041669) - NEW Episode HS: 1
+(104, 1740, 1041740) - - - - - Repeat Episode HS: 1
+(104, 3854, 1043854) - - - - - Repeat Episode HS: 1
+(104, 4645, 1044645) - - - - - Repeat Episode HS: 1
+(104, 7189, 1047189) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 105
+(105, 6497, 1056497) - NEW Episode HS: 1
+(105, 6844, 1056844) - - - - - Repeat Episode HS: 1
+(105, 7936, 1057936) - - - - - Repeat Episode HS: 1
+(105, 9317, 1059317) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 106
+(106, 1185, 1061185) - NEW Episode HS: 1
+(106, 4269, 1064269) - - - - - Repeat Episode HS: 1
+(106, 4842, 1064842) - - - - - Repeat Episode HS: 1
+(106, 6890, 1066890) - - - - - Repeat Episode HS: 1
+(106, 7833, 1067833) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 107
+(107, 883, 1070883) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 108
+(108, 609, 1080609) - NEW Episode HS: 1
+(108, 2490, 1082490) - - - - - Repeat Episode HS: 1
+(108, 2578, 1082578) - - - - - Repeat Episode HS: 1
+(108, 3891, 1083891) - - - - - Repeat Episode HS: 1
+(108, 6054, 1086054) - - - - - Repeat Episode HS: 1
+(108, 9751, 1089751) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 109
+(109, 364, 1090364) - NEW Episode HS: 1
+(109, 933, 1090933) - - - - - Repeat Episode HS: 1
+(109, 2030, 1092030) - - - - - Repeat Episode HS: 1
+(109, 4602, 1094602) - - - - - Repeat Episode HS: 1
+(109, 5311, 1095311) - - - - - Repeat Episode HS: 1
+(109, 6233, 1096233) - - - - - Repeat Episode HS: 1
+(109, 6705, 1096705) - - - - - Repeat Episode HS: 1
+(109, 7913, 1097913) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 110
+(110, 3836, 1103836) - NEW Episode HS: 1
+(110, 4317, 1104317) - - - - - Repeat Episode HS: 1
+(110, 5430, 1105430) - - - - - Repeat Episode HS: 1
+(110, 8197, 1108197) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 111
+(111, 2653, 1112653) - NEW Episode HS: 1
+(111, 4354, 1114354) - - - - - Repeat Episode HS: 1
+(111, 5104, 1115104) - - - - - Repeat Episode HS: 1
+(111, 6514, 1116514) - - - - - Repeat Episode HS: 1
+(111, 9926, 1119926) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 112
+(112, 2043, 1122043) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 113
+(113, 306, 1130306) - NEW Episode HS: 1
+(113, 2382, 1132382) - - - - - Repeat Episode HS: 1
+(113, 6990, 1136990) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 114
+(114, 6714, 1146714) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 115
+(115, 166, 1150166) - NEW Episode HS: 1
+(115, 4246, 1154246) - - - - - Repeat Episode HS: 1
+(115, 4260, 1154260) - - - - - Repeat Episode HS: 1
+(115, 5993, 1155993) - - - - - Repeat Episode HS: 1
+(115, 7641, 1157641) - - - - - Repeat Episode HS: 1
+(115, 8855, 1158855) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 116
+(116, 431, 1160431) - NEW Episode HS: 1
+(116, 825, 1160825) - - - - - Repeat Episode HS: 1
+(116, 1294, 1161294) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 117
+(117, 440, 1170440) - NEW Episode HS: 1
+(117, 2672, 1172672) - - - - - Repeat Episode HS: 1
+(117, 3726, 1173726) - - - - - Repeat Episode HS: 1
+(117, 5810, 1175810) - - - - - Repeat Episode HS: 1
+(117, 7212, 1177212) - - - - - Repeat Episode HS: 1
+(117, 8506, 1178506) - - - - - Repeat Episode HS: 1
+(117, 9042, 1179042) - - - - - Repeat Episode HS: 1
+(117, 9938, 1179938) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 118
+(118, 6213, 1186213) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 119
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 120
+(120, 8162, 1208162) - NEW Episode HS: 1
+(120, 9070, 1209070) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 121
+(121, 1028, 1211028) - NEW Episode HS: 1
+(121, 5268, 1215268) - - - - - Repeat Episode HS: 1
+(121, 5844, 1215844) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 122
+(122, 518, 1220518) - NEW Episode HS: 1
+(122, 1814, 1221814) - - - - - Repeat Episode HS: 1
+(122, 2180, 1222180) - - - - - Repeat Episode HS: 1
+(122, 3884, 1223884) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 123
+(123, 1155, 1231155) - NEW Episode HS: 1
+(123, 2968, 1232968) - - - - - Repeat Episode HS: 1
+(123, 3352, 1233352) - - - - - Repeat Episode HS: 1
+(123, 5319, 1235319) - - - - - Repeat Episode HS: 1
+(123, 8924, 1238924) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 124
+(124, 351, 1240351) - NEW Episode HS: 1
+(124, 5408, 1245408) - - - - - Repeat Episode HS: 1
+(124, 8063, 1248063) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 125
+(125, 1945, 1251945) - NEW Episode HS: 1
+(125, 3268, 1253268) - - - - - Repeat Episode HS: 1
+(125, 5830, 1255830) - - - - - Repeat Episode HS: 1
+(125, 6873, 1256873) - - - - - Repeat Episode HS: 1
+(125, 8938, 1258938) - - - - - Repeat Episode HS: 1
+(125, 9709, 1259709) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 126
+(126, 5578, 1265578) - NEW Episode HS: 1
+(126, 7119, 1267119) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 127
+(127, 1335, 1271335) - NEW Episode HS: 1
+(127, 8458, 1278458) - - - - - Repeat Episode HS: 1
+(127, 9373, 1279373) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 128
+(128, 383, 1280383) - NEW Episode HS: 1
+(128, 1522, 1281522) - - - - - Repeat Episode HS: 1
+(128, 6145, 1286145) - - - - - Repeat Episode HS: 1
+(128, 8036, 1288036) - - - - - Repeat Episode HS: 1
+(128, 9214, 1289214) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 129
+(129, 2841, 1292841) - NEW Episode HS: 1
+(129, 3966, 1293966) - - - - - Repeat Episode HS: 1
+(129, 4891, 1294891) - - - - - Repeat Episode HS: 1
+(129, 8951, 1298951) - - - - - Repeat Episode HS: 1
+(129, 9817, 1299817) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 130
+(130, 5226, 1305226) - NEW Episode HS: 1
+(130, 6943, 1306943) - - - - - Repeat Episode HS: 1
+(130, 9487, 1309487) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 131
+(131, 1115, 1311115) - NEW Episode HS: 1
+(131, 3164, 1313164) - - - - - Repeat Episode HS: 1
+(131, 4663, 1314663) - - - - - Repeat Episode HS: 1
+(131, 6947, 1316947) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 132
+(132, 1423, 1321423) - NEW Episode HS: 1
+(132, 8473, 1328473) - - - - - Repeat Episode HS: 1
+(132, 9661, 1329661) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 133
+(133, 5370, 1335370) - NEW Episode HS: 1
+(133, 8402, 1338402) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 134
+(134, 7687, 1347687) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 135
+(135, 2199, 1352199) - NEW Episode HS: 1
+(135, 2490, 1352490) - - - - - Repeat Episode HS: 1
+(135, 6107, 1356107) - - - - - Repeat Episode HS: 1
+(135, 7208, 1357208) - - - - - Repeat Episode HS: 1
+(135, 7252, 1357252) - - - - - Repeat Episode HS: 1
+(135, 7588, 1357588) - - - - - Repeat Episode HS: 1
+(135, 8154, 1358154) - - - - - Repeat Episode HS: 1
+(135, 8190, 1358190) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 136
+(136, 2998, 1362998) - NEW Episode HS: 1
+(136, 6806, 1366806) - - - - - Repeat Episode HS: 1
+(136, 7770, 1367770) - - - - - Repeat Episode HS: 1
+(136, 7920, 1367920) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 137
+(137, 833, 1370833) - NEW Episode HS: 1
+(137, 1034, 1371034) - - - - - Repeat Episode HS: 1
+(137, 2400, 1372400) - - - - - Repeat Episode HS: 1
+(137, 3303, 1373303) - - - - - Repeat Episode HS: 1
+(137, 3624, 1373624) - - - - - Repeat Episode HS: 1
+(137, 8458, 1378458) - - - - - Repeat Episode HS: 1
+(137, 9245, 1379245) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 138
+(138, 2492, 1382492) - NEW Episode HS: 1
+(138, 3010, 1383010) - - - - - Repeat Episode HS: 1
+(138, 3492, 1383492) - - - - - Repeat Episode HS: 1
+(138, 3728, 1383728) - - - - - Repeat Episode HS: 1
+(138, 5315, 1385315) - - - - - Repeat Episode HS: 1
+(138, 9518, 1389518) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 139
+(139, 3861, 1393861) - NEW Episode HS: 1
+(139, 4305, 1394305) - - - - - Repeat Episode HS: 1
+(139, 5806, 1395806) - - - - - Repeat Episode HS: 1
+(139, 7441, 1397441) - - - - - Repeat Episode HS: 1
+(139, 7608, 1397608) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 140
+(140, 168, 1400168) - NEW Episode HS: 1
+(140, 790, 1400790) - - - - - Repeat Episode HS: 1
+(140, 3612, 1403612) - - - - - Repeat Episode HS: 1
+(140, 5043, 1405043) - - - - - Repeat Episode HS: 1
+(140, 8006, 1408006) - - - - - Repeat Episode HS: 1
+(140, 8366, 1408366) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 141
+(141, 1929, 1411929) - NEW Episode HS: 1
+(141, 3459, 1413459) - - - - - Repeat Episode HS: 1
+(141, 9297, 1419297) - - - - - Repeat Episode HS: 1
+(141, 9885, 1419885) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 142
+(142, 508, 1420508) - NEW Episode HS: 1
+(142, 5504, 1425504) - - - - - Repeat Episode HS: 1
+(142, 6116, 1426116) - - - - - Repeat Episode HS: 1
+(142, 8372, 1428372) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+(143, 2, 1430002) - NEW Episode HS: 1
+CHECKPOINT: 143
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 144
+(144, 287, 1440287) - NEW Episode HS: 1
+(144, 2800, 1442800) - - - - - Repeat Episode HS: 1
+(144, 3669, 1443669) - - - - - Repeat Episode HS: 1
+(144, 3734, 1443734) - - - - - Repeat Episode HS: 1
+(144, 4268, 1444268) - - - - - Repeat Episode HS: 1
+(144, 5027, 1445027) - - - - - Repeat Episode HS: 1
+(144, 5178, 1445178) - - - - - Repeat Episode HS: 1
+(144, 5994, 1445994) - - - - - Repeat Episode HS: 1
+(144, 7799, 1447799) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 145
+(145, 9012, 1459012) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 146
+(146, 1560, 1461560) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 147
+(147, 2556, 1472556) - NEW Episode HS: 1
+(147, 9423, 1479423) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 148
+(148, 7172, 1487172) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 149
+(149, 9713, 1499713) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 150
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 151
+(151, 310, 1510310) - NEW Episode HS: 1
+(151, 4477, 1514477) - - - - - Repeat Episode HS: 1
+(151, 6173, 1516173) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 152
+(152, 1713, 1521713) - NEW Episode HS: 1
+(152, 2578, 1522578) - - - - - Repeat Episode HS: 1
+(152, 3422, 1523422) - - - - - Repeat Episode HS: 1
+(152, 7053, 1527053) - - - - - Repeat Episode HS: 1
+(152, 8024, 1528024) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 153
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 154
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 155
+(155, 471, 1550471) - NEW Episode HS: 1
+(155, 8451, 1558451) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 156
+(156, 4389, 1564389) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 157
+(157, 3883, 1573883) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 158
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 159
+(159, 9844, 1599844) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 160
+(160, 1841, 1601841) - NEW Episode HS: 1
+(160, 4839, 1604839) - - - - - Repeat Episode HS: 1
+(160, 4841, 1604841) - - - - - Repeat Episode HS: 1
+(160, 5191, 1605191) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 161
+(161, 8700, 1618700) - NEW Episode HS: 1
+(161, 9478, 1619478) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 162
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 163
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 164
+(164, 4608, 1644608) - NEW Episode HS: 1
+(164, 7849, 1647849) - - - - - Repeat Episode HS: 1
+(164, 8805, 1648805) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 165
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 166
+(166, 300, 1660300) - NEW Episode HS: 1
+(166, 9592, 1669592) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 167
+(167, 4510, 1674510) - NEW Episode HS: 1
+(167, 8823, 1678823) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 168
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 169
+(169, 5730, 1695730) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 170
+(170, 6999, 1706999) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 171
+(171, 4884, 1714884) - NEW Episode HS: 1
+(171, 8007, 1718007) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 172
+(172, 3976, 1723976) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 173
+(173, 495, 1730495) - NEW Episode HS: 1
+(173, 2053, 1732053) - - - - - Repeat Episode HS: 1
+(173, 7186, 1737186) - - - - - Repeat Episode HS: 1
+(173, 7297, 1737297) - - - - - Repeat Episode HS: 1
+(173, 7886, 1737886) - - - - - Repeat Episode HS: 1
+(173, 8141, 1738141) - - - - - Repeat Episode HS: 1
+(173, 8454, 1738454) - - - - - Repeat Episode HS: 1
+(173, 8655, 1738655) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 174
+(174, 3330, 1743330) - NEW Episode HS: 1
+(174, 4798, 1744798) - - - - - Repeat Episode HS: 1
+(174, 5316, 1745316) - - - - - Repeat Episode HS: 1
+(174, 5344, 1745344) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 175
+(175, 4190, 1754190) - NEW Episode HS: 1
+(175, 4315, 1754315) - - - - - Repeat Episode HS: 1
+(175, 7634, 1757634) - - - - - Repeat Episode HS: 1
+(175, 7975, 1757975) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 176
+(176, 2393, 1762393) - NEW Episode HS: 1
+(176, 6182, 1766182) - - - - - Repeat Episode HS: 1
+(176, 9267, 1769267) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 177
+(177, 584, 1770584) - NEW Episode HS: 1
+(177, 9211, 1779211) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 178
+(178, 5010, 1785010) - NEW Episode HS: 1
+(178, 8051, 1788051) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 179
+(179, 1606, 1791606) - NEW Episode HS: 1
+(179, 7952, 1797952) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 180
+(180, 3281, 1803281) - NEW Episode HS: 1
+(180, 3538, 1803538) - - - - - Repeat Episode HS: 1
+(180, 7613, 1807613) - - - - - Repeat Episode HS: 1
+(180, 7913, 1807913) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 181
+(181, 2650, 1812650) - NEW Episode HS: 1
+(181, 4515, 1814515) - - - - - Repeat Episode HS: 1
+(181, 8722, 1818722) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 182
+(182, 707, 1820707) - NEW Episode HS: 1
+(182, 1486, 1821486) - - - - - Repeat Episode HS: 1
+(182, 2189, 1822189) - - - - - Repeat Episode HS: 1
+(182, 5770, 1825770) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 183
+(183, 246, 1830246) - NEW Episode HS: 1
+(183, 374, 1830374) - - - - - Repeat Episode HS: 1
+(183, 2707, 1832707) - - - - - Repeat Episode HS: 1
+(183, 3690, 1833690) - - - - - Repeat Episode HS: 1
+(183, 4455, 1834455) - - - - - Repeat Episode HS: 1
+(183, 4930, 1834930) - - - - - Repeat Episode HS: 1
+(183, 7351, 1837351) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 184
+(184, 1922, 1841922) - NEW Episode HS: 1
+(184, 1951, 1841951) - - - - - Repeat Episode HS: 1
+(184, 7710, 1847710) - - - - - Repeat Episode HS: 1
+(184, 7866, 1847866) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 185
+(185, 1258, 1851258) - NEW Episode HS: 1
+(185, 7672, 1857672) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 186
+(186, 1368, 1861368) - NEW Episode HS: 1
+(186, 4686, 1864686) - - - - - Repeat Episode HS: 1
+(186, 5554, 1865554) - - - - - Repeat Episode HS: 1
+(186, 5915, 1865915) - - - - - Repeat Episode HS: 1
+(186, 8393, 1868393) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 187
+(187, 478, 1870478) - NEW Episode HS: 1
+(187, 3929, 1873929) - - - - - Repeat Episode HS: 1
+(187, 6748, 1876748) - - - - - Repeat Episode HS: 1
+(187, 9624, 1879624) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 188
+(188, 2648, 1882648) - NEW Episode HS: 1
+(188, 3535, 1883535) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 189
+(189, 872, 1890872) - NEW Episode HS: 1
+(189, 1065, 1891065) - - - - - Repeat Episode HS: 1
+(189, 3849, 1893849) - - - - - Repeat Episode HS: 1
+(189, 6036, 1896036) - - - - - Repeat Episode HS: 1
+(189, 7809, 1897809) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 190
+(190, 1764, 1901764) - NEW Episode HS: 1
+(190, 9430, 1909430) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 191
+(191, 3403, 1913403) - NEW Episode HS: 1
+(191, 4033, 1914033) - - - - - Repeat Episode HS: 1
+(191, 6722, 1916722) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 192
+(192, 5595, 1925595) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 193
+(193, 313, 1930313) - NEW Episode HS: 1
+(193, 1812, 1931812) - - - - - Repeat Episode HS: 1
+(193, 3809, 1933809) - - - - - Repeat Episode HS: 1
+(193, 4684, 1934684) - - - - - Repeat Episode HS: 1
+(193, 8160, 1938160) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 194
+(194, 583, 1940583) - NEW Episode HS: 1
+(194, 1266, 1941266) - - - - - Repeat Episode HS: 1
+(194, 8634, 1948634) - - - - - Repeat Episode HS: 1
+(194, 9922, 1949922) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 195
+(195, 2097, 1952097) - NEW Episode HS: 1
+(195, 6723, 1956723) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 196
+(196, 679, 1960679) - NEW Episode HS: 1
+(196, 1440, 1961440) - - - - - Repeat Episode HS: 1
+(196, 3927, 1963927) - - - - - Repeat Episode HS: 1
+(196, 7947, 1967947) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 197
+(197, 1211, 1971211) - NEW Episode HS: 1
+(197, 4296, 1974296) - - - - - Repeat Episode HS: 1
+(197, 9223, 1979223) - - - - - Repeat Episode HS: 1
+(197, 9856, 1979856) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 198
+(198, 5496, 1985496) - NEW Episode HS: 1
+(198, 6212, 1986212) - - - - - Repeat Episode HS: 1
+(198, 7827, 1987827) - - - - - Repeat Episode HS: 1
+(198, 9517, 1989517) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 199
+(199, 2879, 1992879) - NEW Episode HS: 1
+(199, 5879, 1995879) - - - - - Repeat Episode HS: 1
+(199, 6955, 1996955) - - - - - Repeat Episode HS: 1
+(199, 7948, 1997948) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 200
+(200, 1049, 2001049) - NEW Episode HS: 1
+(200, 2484, 2002484) - - - - - Repeat Episode HS: 1
+(200, 3058, 2003058) - - - - - Repeat Episode HS: 1
+(200, 8890, 2008890) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 201
+(201, 959, 2010959) - NEW Episode HS: 1
+(201, 2705, 2012705) - - - - - Repeat Episode HS: 1
+(201, 8442, 2018442) - - - - - Repeat Episode HS: 1
+(201, 8982, 2018982) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 202
+(202, 3043, 2023043) - NEW Episode HS: 1
+(202, 6972, 2026972) - - - - - Repeat Episode HS: 1
+(202, 6991, 2026991) - - - - - Repeat Episode HS: 1
+(202, 7446, 2027446) - - - - - Repeat Episode HS: 1
+(202, 9507, 2029507) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 203
+(203, 7336, 2037336) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 204
+(204, 908, 2040908) - NEW Episode HS: 1
+(204, 2016, 2042016) - - - - - Repeat Episode HS: 1
+(204, 2981, 2042981) - - - - - Repeat Episode HS: 1
+(204, 3366, 2043366) - - - - - Repeat Episode HS: 1
+(204, 9360, 2049360) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 205
+(205, 1492, 2051492) - NEW Episode HS: 1
+(205, 4004, 2054004) - - - - - Repeat Episode HS: 1
+(205, 8575, 2058575) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 206
+(206, 820, 2060820) - NEW Episode HS: 1
+(206, 1581, 2061581) - - - - - Repeat Episode HS: 1
+(206, 3170, 2063170) - - - - - Repeat Episode HS: 1
+(206, 6953, 2066953) - - - - - Repeat Episode HS: 1
+(206, 9902, 2069902) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 207
+(207, 2267, 2072267) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 208
+(208, 2788, 2082788) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 209
+(209, 4655, 2094655) - NEW Episode HS: 1
+(209, 6020, 2096020) - - - - - Repeat Episode HS: 1
+(209, 7934, 2097934) - - - - - Repeat Episode HS: 1
+(209, 9759, 2099759) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 210
+(210, 1179, 2101179) - NEW Episode HS: 1
+(210, 3755, 2103755) - - - - - Repeat Episode HS: 1
+(210, 4640, 2104640) - - - - - Repeat Episode HS: 1
+(210, 5697, 2105697) - - - - - Repeat Episode HS: 1
+(210, 8514, 2108514) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 211
+(211, 4685, 2114685) - NEW Episode HS: 1
+(211, 5148, 2115148) - - - - - Repeat Episode HS: 1
+(211, 6825, 2116825) - - - - - Repeat Episode HS: 1
+(211, 8792, 2118792) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 212
+(212, 588, 2120588) - NEW Episode HS: 1
+(212, 1042, 2121042) - - - - - Repeat Episode HS: 1
+(212, 2703, 2122703) - - - - - Repeat Episode HS: 1
+(212, 8961, 2128961) - - - - - Repeat Episode HS: 1
+(212, 9782, 2129782) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 213
+(213, 357, 2130357) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 214
+(214, 6791, 2146791) - NEW Episode HS: 1
+(214, 6934, 2146934) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 215
+(215, 3030, 2153030) - NEW Episode HS: 1
+(215, 4888, 2154888) - - - - - Repeat Episode HS: 1
+(215, 5668, 2155668) - - - - - Repeat Episode HS: 1
+(215, 9640, 2159640) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 216
+(216, 867, 2160867) - NEW Episode HS: 1
+(216, 6076, 2166076) - - - - - Repeat Episode HS: 1
+(216, 6799, 2166799) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 217
+(217, 619, 2170619) - NEW Episode HS: 1
+(217, 1397, 2171397) - - - - - Repeat Episode HS: 1
+(217, 3030, 2173030) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 218
+(218, 1001, 2181001) - NEW Episode HS: 1
+(218, 2771, 2182771) - - - - - Repeat Episode HS: 1
+(218, 3423, 2183423) - - - - - Repeat Episode HS: 1
+(218, 3830, 2183830) - - - - - Repeat Episode HS: 1
+(218, 7350, 2187350) - - - - - Repeat Episode HS: 1
+(218, 7848, 2187848) - - - - - Repeat Episode HS: 1
+(218, 8012, 2188012) - - - - - Repeat Episode HS: 1
+(218, 8062, 2188062) - - - - - Repeat Episode HS: 1
+(218, 9296, 2189296) - - - - - Repeat Episode HS: 1
+(218, 9985, 2189985) - - - - - Repeat Episode HS: 1
+Performance Points: 10
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 219
+(219, 6622, 2196622) - NEW Episode HS: 1
+(219, 7661, 2197661) - - - - - Repeat Episode HS: 1
+(219, 7841, 2197841) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 220
+(220, 3889, 2203889) - NEW Episode HS: 1
+(220, 6706, 2206706) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 221
+(221, 2404, 2212404) - NEW Episode HS: 1
+(221, 2948, 2212948) - - - - - Repeat Episode HS: 1
+(221, 9117, 2219117) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 222
+(222, 7654, 2227654) - NEW Episode HS: 1
+(222, 9883, 2229883) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 223
+(223, 1629, 2231629) - NEW Episode HS: 1
+(223, 6976, 2236976) - - - - - Repeat Episode HS: 1
+(223, 8519, 2238519) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 224
+(224, 3071, 2243071) - NEW Episode HS: 1
+(224, 6254, 2246254) - - - - - Repeat Episode HS: 1
+(224, 6867, 2246867) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 225
+(225, 1484, 2251484) - NEW Episode HS: 1
+(225, 1786, 2251786) - - - - - Repeat Episode HS: 1
+(225, 2029, 2252029) - - - - - Repeat Episode HS: 1
+(225, 3340, 2253340) - - - - - Repeat Episode HS: 1
+(225, 3763, 2253763) - - - - - Repeat Episode HS: 1
+(225, 6404, 2256404) - - - - - Repeat Episode HS: 1
+(225, 7020, 2257020) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 226
+(226, 1097, 2261097) - NEW Episode HS: 1
+(226, 2999, 2262999) - - - - - Repeat Episode HS: 1
+(226, 6658, 2266658) - - - - - Repeat Episode HS: 1
+(226, 8118, 2268118) - - - - - Repeat Episode HS: 1
+(226, 8208, 2268208) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 227
+(227, 266, 2270266) - NEW Episode HS: 1
+(227, 3943, 2273943) - - - - - Repeat Episode HS: 1
+(227, 4476, 2274476) - - - - - Repeat Episode HS: 1
+(227, 8393, 2278393) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 228
+(228, 5305, 2285305) - NEW Episode HS: 1
+(228, 9541, 2289541) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 229
+(229, 927, 2290927) - NEW Episode HS: 1
+(229, 1296, 2291296) - - - - - Repeat Episode HS: 1
+(229, 5479, 2295479) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 230
+(230, 989, 2300989) - NEW Episode HS: 1
+(230, 2659, 2302659) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 231
+(231, 470, 2310470) - NEW Episode HS: 1
+(231, 3428, 2313428) - - - - - Repeat Episode HS: 1
+(231, 5776, 2315776) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 232
+(232, 1657, 2321657) - NEW Episode HS: 1
+(232, 3003, 2323003) - - - - - Repeat Episode HS: 1
+(232, 3885, 2323885) - - - - - Repeat Episode HS: 1
+(232, 5704, 2325704) - - - - - Repeat Episode HS: 1
+(232, 8373, 2328373) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 233
+(233, 1366, 2331366) - NEW Episode HS: 1
+(233, 1613, 2331613) - - - - - Repeat Episode HS: 1
+(233, 2538, 2332538) - - - - - Repeat Episode HS: 1
+(233, 5080, 2335080) - - - - - Repeat Episode HS: 1
+(233, 5882, 2335882) - - - - - Repeat Episode HS: 1
+(233, 6853, 2336853) - - - - - Repeat Episode HS: 1
+(233, 9462, 2339462) - - - - - Repeat Episode HS: 1
+(233, 9636, 2339636) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 234
+(234, 414, 2340414) - NEW Episode HS: 1
+(234, 4291, 2344291) - - - - - Repeat Episode HS: 1
+(234, 7713, 2347713) - - - - - Repeat Episode HS: 1
+(234, 9794, 2349794) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 235
+(235, 466, 2350466) - NEW Episode HS: 1
+(235, 2947, 2352947) - - - - - Repeat Episode HS: 1
+(235, 5014, 2355014) - - - - - Repeat Episode HS: 1
+(235, 6900, 2356900) - - - - - Repeat Episode HS: 1
+(235, 7827, 2357827) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 236
+(236, 4814, 2364814) - NEW Episode HS: 1
+(236, 6843, 2366843) - - - - - Repeat Episode HS: 1
+(236, 9547, 2369547) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 237
+(237, 4272, 2374272) - NEW Episode HS: 1
+(237, 6365, 2376365) - - - - - Repeat Episode HS: 1
+(237, 6405, 2376405) - - - - - Repeat Episode HS: 1
+(237, 7868, 2377868) - - - - - Repeat Episode HS: 1
+(237, 9131, 2379131) - - - - - Repeat Episode HS: 1
+(237, 9910, 2379910) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 238
+(238, 11, 2380011) - NEW Episode HS: 1
+(238, 5175, 2385175) - - - - - Repeat Episode HS: 1
+(238, 5837, 2385837) - - - - - Repeat Episode HS: 1
+(238, 7273, 2387273) - - - - - Repeat Episode HS: 1
+(238, 8240, 2388240) - - - - - Repeat Episode HS: 1
+(238, 8244, 2388244) - - - - - Repeat Episode HS: 1
+(238, 8264, 2388264) - NEW Episode HS: 2
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 239
+(239, 827, 2390827) - NEW Episode HS: 1
+(239, 1090, 2391090) - - - - - Repeat Episode HS: 1
+(239, 1392, 2391392) - - - - - Repeat Episode HS: 1
+(239, 5844, 2395844) - - - - - Repeat Episode HS: 1
+(239, 6315, 2396315) - - - - - Repeat Episode HS: 1
+(239, 8280, 2398280) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 240
+(240, 799, 2400799) - NEW Episode HS: 1
+(240, 1100, 2401100) - - - - - Repeat Episode HS: 1
+(240, 1262, 2401262) - - - - - Repeat Episode HS: 1
+(240, 2526, 2402526) - - - - - Repeat Episode HS: 1
+(240, 4551, 2404551) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 241
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 242
+(242, 532, 2420532) - NEW Episode HS: 1
+(242, 2176, 2422176) - - - - - Repeat Episode HS: 1
+(242, 3714, 2423714) - - - - - Repeat Episode HS: 1
+(242, 7289, 2427289) - - - - - Repeat Episode HS: 1
+(242, 8567, 2428567) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 243
+(243, 3150, 2433150) - NEW Episode HS: 1
+(243, 5233, 2435233) - - - - - Repeat Episode HS: 1
+(243, 6121, 2436121) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 244
+(244, 8973, 2448973) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 245
+(245, 2103, 2452103) - NEW Episode HS: 1
+(245, 6933, 2456933) - - - - - Repeat Episode HS: 1
+(245, 8789, 2458789) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 246
+(246, 525, 2460525) - NEW Episode HS: 1
+(246, 3111, 2463111) - - - - - Repeat Episode HS: 1
+(246, 3918, 2463918) - - - - - Repeat Episode HS: 1
+(246, 6106, 2466106) - - - - - Repeat Episode HS: 1
+(246, 7748, 2467748) - - - - - Repeat Episode HS: 1
+(246, 9050, 2469050) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 247
+(247, 2218, 2472218) - NEW Episode HS: 1
+(247, 3133, 2473133) - - - - - Repeat Episode HS: 1
+(247, 4763, 2474763) - - - - - Repeat Episode HS: 1
+(247, 8174, 2478174) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 248
+(248, 6713, 2486713) - NEW Episode HS: 1
+(248, 7916, 2487916) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 249
+(249, 672, 2490672) - NEW Episode HS: 1
+(249, 8454, 2498454) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 250
+(250, 2376, 2502376) - NEW Episode HS: 1
+(250, 3147, 2503147) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 251
+(251, 2952, 2512952) - NEW Episode HS: 1
+(251, 3193, 2513193) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 252
+(252, 5486, 2525486) - NEW Episode HS: 1
+(252, 8861, 2528861) - - - - - Repeat Episode HS: 1
+(252, 8897, 2528897) - - - - - Repeat Episode HS: 1
+(252, 9702, 2529702) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 253
+(253, 2610, 2532610) - NEW Episode HS: 1
+(253, 3573, 2533573) - - - - - Repeat Episode HS: 1
+(253, 6702, 2536702) - - - - - Repeat Episode HS: 1
+(253, 8649, 2538649) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 254
+(254, 270, 2540270) - NEW Episode HS: 1
+(254, 4266, 2544266) - - - - - Repeat Episode HS: 1
+(254, 5160, 2545160) - - - - - Repeat Episode HS: 1
+(254, 5545, 2545545) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 255
+(255, 707, 2550707) - NEW Episode HS: 1
+(255, 3991, 2553991) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 256
+(256, 2023, 2562023) - NEW Episode HS: 1
+(256, 2642, 2562642) - - - - - Repeat Episode HS: 1
+(256, 3676, 2563676) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 257
+(257, 821, 2570821) - NEW Episode HS: 1
+(257, 3928, 2573928) - - - - - Repeat Episode HS: 1
+(257, 6901, 2576901) - - - - - Repeat Episode HS: 1
+(257, 7491, 2577491) - - - - - Repeat Episode HS: 1
+(257, 8962, 2578962) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 258
+(258, 2032, 2582032) - NEW Episode HS: 1
+(258, 9201, 2589201) - - - - - Repeat Episode HS: 1
+(258, 9793, 2589793) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 259
+(259, 3072, 2593072) - NEW Episode HS: 1
+(259, 5013, 2595013) - - - - - Repeat Episode HS: 1
+(259, 5099, 2595099) - - - - - Repeat Episode HS: 1
+(259, 5616, 2595616) - - - - - Repeat Episode HS: 1
+(259, 6492, 2596492) - - - - - Repeat Episode HS: 1
+(259, 7595, 2597595) - - - - - Repeat Episode HS: 1
+(259, 9229, 2599229) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 260
+(260, 3246, 2603246) - NEW Episode HS: 1
+(260, 3994, 2603994) - - - - - Repeat Episode HS: 1
+(260, 5031, 2605031) - - - - - Repeat Episode HS: 1
+(260, 6578, 2606578) - - - - - Repeat Episode HS: 1
+(260, 7075, 2607075) - - - - - Repeat Episode HS: 1
+(260, 7301, 2607301) - - - - - Repeat Episode HS: 1
+(260, 9230, 2609230) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 261
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 262
+(262, 1064, 2621064) - NEW Episode HS: 1
+(262, 1265, 2621265) - - - - - Repeat Episode HS: 1
+(262, 2208, 2622208) - - - - - Repeat Episode HS: 1
+(262, 2681, 2622681) - - - - - Repeat Episode HS: 1
+(262, 3385, 2623385) - - - - - Repeat Episode HS: 1
+(262, 8897, 2628897) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 263
+(263, 5316, 2635316) - NEW Episode HS: 1
+(263, 5533, 2635533) - - - - - Repeat Episode HS: 1
+(263, 8729, 2638729) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 264
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 265
+(265, 1019, 2651019) - NEW Episode HS: 1
+(265, 1994, 2651994) - - - - - Repeat Episode HS: 1
+(265, 4674, 2654674) - - - - - Repeat Episode HS: 1
+(265, 6798, 2656798) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 266
+(266, 1954, 2661954) - NEW Episode HS: 1
+(266, 2788, 2662788) - - - - - Repeat Episode HS: 1
+(266, 3062, 2663062) - - - - - Repeat Episode HS: 1
+(266, 5148, 2665148) - - - - - Repeat Episode HS: 1
+(266, 5758, 2665758) - - - - - Repeat Episode HS: 1
+(266, 8748, 2668748) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 267
+(267, 1931, 2671931) - NEW Episode HS: 1
+(267, 5065, 2675065) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 268
+(268, 4499, 2684499) - NEW Episode HS: 1
+(268, 5157, 2685157) - - - - - Repeat Episode HS: 1
+(268, 9741, 2689741) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 269
+(269, 1057, 2691057) - NEW Episode HS: 1
+(269, 3834, 2693834) - - - - - Repeat Episode HS: 1
+(269, 3936, 2693936) - - - - - Repeat Episode HS: 1
+(269, 4018, 2694018) - - - - - Repeat Episode HS: 1
+(269, 4132, 2694132) - - - - - Repeat Episode HS: 1
+(269, 5396, 2695396) - - - - - Repeat Episode HS: 1
+(269, 7516, 2697516) - - - - - Repeat Episode HS: 1
+(269, 8166, 2698166) - - - - - Repeat Episode HS: 1
+(269, 8439, 2698439) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 270
+(270, 1379, 2701379) - NEW Episode HS: 1
+(270, 2496, 2702496) - - - - - Repeat Episode HS: 1
+(270, 7503, 2707503) - - - - - Repeat Episode HS: 1
+(270, 7639, 2707639) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 271
+(271, 572, 2710572) - NEW Episode HS: 1
+(271, 2092, 2712092) - - - - - Repeat Episode HS: 1
+(271, 3302, 2713302) - - - - - Repeat Episode HS: 1
+(271, 4132, 2714132) - - - - - Repeat Episode HS: 1
+(271, 4458, 2714458) - - - - - Repeat Episode HS: 1
+(271, 6838, 2716838) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 272
+(272, 3801, 2723801) - NEW Episode HS: 1
+(272, 4363, 2724363) - - - - - Repeat Episode HS: 1
+(272, 6132, 2726132) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 273
+(273, 39, 2730039) - NEW Episode HS: 1
+(273, 5304, 2735304) - - - - - Repeat Episode HS: 1
+(273, 5335, 2735335) - - - - - Repeat Episode HS: 1
+(273, 5356, 2735356) - - - - - Repeat Episode HS: 1
+(273, 6457, 2736457) - - - - - Repeat Episode HS: 1
+(273, 6857, 2736857) - - - - - Repeat Episode HS: 1
+(273, 8217, 2738217) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 274
+(274, 446, 2740446) - NEW Episode HS: 1
+(274, 4486, 2744486) - - - - - Repeat Episode HS: 1
+(274, 9043, 2749043) - - - - - Repeat Episode HS: 1
+(274, 9233, 2749233) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 275
+(275, 3817, 2753817) - NEW Episode HS: 1
+(275, 4026, 2754026) - - - - - Repeat Episode HS: 1
+(275, 5534, 2755534) - - - - - Repeat Episode HS: 1
+(275, 8091, 2758091) - - - - - Repeat Episode HS: 1
+(275, 8372, 2758372) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 276
+(276, 2567, 2762567) - NEW Episode HS: 1
+(276, 2621, 2762621) - - - - - Repeat Episode HS: 1
+(276, 7491, 2767491) - - - - - Repeat Episode HS: 1
+(276, 9291, 2769291) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 277
+(277, 486, 2770486) - NEW Episode HS: 1
+(277, 1812, 2771812) - - - - - Repeat Episode HS: 1
+(277, 2861, 2772861) - - - - - Repeat Episode HS: 1
+(277, 5162, 2775162) - - - - - Repeat Episode HS: 1
+(277, 7450, 2777450) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 278
+(278, 1578, 2781578) - NEW Episode HS: 1
+(278, 6250, 2786250) - - - - - Repeat Episode HS: 1
+(278, 6283, 2786283) - - - - - Repeat Episode HS: 1
+(278, 9825, 2789825) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 279
+(279, 481, 2790481) - NEW Episode HS: 1
+(279, 5717, 2795717) - - - - - Repeat Episode HS: 1
+(279, 6186, 2796186) - - - - - Repeat Episode HS: 1
+(279, 7807, 2797807) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 280
+(280, 163, 2800163) - NEW Episode HS: 1
+(280, 217, 2800217) - - - - - Repeat Episode HS: 1
+(280, 630, 2800630) - - - - - Repeat Episode HS: 1
+(280, 1520, 2801520) - - - - - Repeat Episode HS: 1
+(280, 2575, 2802575) - - - - - Repeat Episode HS: 1
+(280, 4231, 2804231) - - - - - Repeat Episode HS: 1
+(280, 4334, 2804334) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 281
+(281, 3220, 2813220) - NEW Episode HS: 1
+(281, 4816, 2814816) - - - - - Repeat Episode HS: 1
+(281, 5844, 2815844) - - - - - Repeat Episode HS: 1
+(281, 9575, 2819575) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 282
+(282, 900, 2820900) - NEW Episode HS: 1
+(282, 1966, 2821966) - - - - - Repeat Episode HS: 1
+(282, 2270, 2822270) - - - - - Repeat Episode HS: 1
+(282, 2675, 2822675) - - - - - Repeat Episode HS: 1
+(282, 6762, 2826762) - - - - - Repeat Episode HS: 1
+(282, 7168, 2827168) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 283
+(283, 259, 2830259) - NEW Episode HS: 1
+(283, 4205, 2834205) - - - - - Repeat Episode HS: 1
+(283, 4326, 2834326) - - - - - Repeat Episode HS: 1
+(283, 7973, 2837973) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 284
+(284, 4677, 2844677) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 285
+(285, 361, 2850361) - NEW Episode HS: 1
+(285, 6155, 2856155) - - - - - Repeat Episode HS: 1
+(285, 7247, 2857247) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 286
+(286, 5171, 2865171) - NEW Episode HS: 1
+(286, 6073, 2866073) - - - - - Repeat Episode HS: 1
+(286, 6742, 2866742) - - - - - Repeat Episode HS: 1
+(286, 8159, 2868159) - - - - - Repeat Episode HS: 1
+(286, 9953, 2869953) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 287
+(287, 475, 2870475) - NEW Episode HS: 1
+(287, 850, 2870850) - - - - - Repeat Episode HS: 1
+(287, 4741, 2874741) - - - - - Repeat Episode HS: 1
+(287, 6621, 2876621) - - - - - Repeat Episode HS: 1
+(287, 7202, 2877202) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 288
+(288, 4539, 2884539) - NEW Episode HS: 1
+(288, 7561, 2887561) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 289
+(289, 5526, 2895526) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 290
+(290, 5223, 2905223) - NEW Episode HS: 1
+(290, 6534, 2906534) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 291
+(291, 1673, 2911673) - NEW Episode HS: 1
+(291, 2170, 2912170) - - - - - Repeat Episode HS: 1
+(291, 7345, 2917345) - - - - - Repeat Episode HS: 1
+(291, 9961, 2919961) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 292
+(292, 270, 2920270) - NEW Episode HS: 1
+(292, 3292, 2923292) - - - - - Repeat Episode HS: 1
+(292, 3776, 2923776) - - - - - Repeat Episode HS: 1
+(292, 7315, 2927315) - - - - - Repeat Episode HS: 1
+(292, 7608, 2927608) - - - - - Repeat Episode HS: 1
+(292, 8954, 2928954) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 293
+(293, 834, 2930834) - NEW Episode HS: 1
+(293, 3074, 2933074) - - - - - Repeat Episode HS: 1
+(293, 6543, 2936543) - - - - - Repeat Episode HS: 1
+(293, 8419, 2938419) - - - - - Repeat Episode HS: 1
+(293, 9856, 2939856) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 294
+(294, 2977, 2942977) - NEW Episode HS: 1
+(294, 4254, 2944254) - - - - - Repeat Episode HS: 1
+(294, 4749, 2944749) - - - - - Repeat Episode HS: 1
+(294, 7114, 2947114) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 295
+(295, 7773, 2957773) - NEW Episode HS: 1
+(295, 8963, 2958963) - - - - - Repeat Episode HS: 1
+(295, 9323, 2959323) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 296
+(296, 794, 2960794) - NEW Episode HS: 1
+(296, 1678, 2961678) - - - - - Repeat Episode HS: 1
+(296, 2528, 2962528) - - - - - Repeat Episode HS: 1
+(296, 2597, 2962597) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 297
+(297, 1367, 2971367) - NEW Episode HS: 1
+(297, 3759, 2973759) - - - - - Repeat Episode HS: 1
+(297, 8219, 2978219) - - - - - Repeat Episode HS: 1
+(297, 9534, 2979534) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 298
+(298, 8983, 2988983) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 299
+(299, 576, 2990576) - NEW Episode HS: 1
+(299, 3793, 2993793) - - - - - Repeat Episode HS: 1
+(299, 4178, 2994178) - - - - - Repeat Episode HS: 1
+(299, 4180, 2994180) - - - - - Repeat Episode HS: 1
+(299, 4187, 2994187) - - - - - Repeat Episode HS: 1
+(299, 4578, 2994578) - - - - - Repeat Episode HS: 1
+(299, 5741, 2995741) - - - - - Repeat Episode HS: 1
+(299, 8345, 2998345) - - - - - Repeat Episode HS: 1
+(299, 9866, 2999866) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 300
+(300, 4078, 3004078) - NEW Episode HS: 1
+(300, 8221, 3008221) - - - - - Repeat Episode HS: 1
+(300, 8249, 3008249) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 301
+(301, 2686, 3012686) - NEW Episode HS: 1
+(301, 4151, 3014151) - - - - - Repeat Episode HS: 1
+(301, 4336, 3014336) - - - - - Repeat Episode HS: 1
+(301, 9478, 3019478) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 302
+(302, 3010, 3023010) - NEW Episode HS: 1
+(302, 4676, 3024676) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 303
+(303, 2007, 3032007) - NEW Episode HS: 1
+(303, 2057, 3032057) - - - - - Repeat Episode HS: 1
+(303, 2177, 3032177) - - - - - Repeat Episode HS: 1
+(303, 2365, 3032365) - - - - - Repeat Episode HS: 1
+(303, 2669, 3032669) - - - - - Repeat Episode HS: 1
+(303, 4319, 3034319) - - - - - Repeat Episode HS: 1
+(303, 4426, 3034426) - - - - - Repeat Episode HS: 1
+(303, 5909, 3035909) - - - - - Repeat Episode HS: 1
+(303, 7257, 3037257) - - - - - Repeat Episode HS: 1
+(303, 7640, 3037640) - - - - - Repeat Episode HS: 1
+Performance Points: 10
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 304
+(304, 5786, 3045786) - NEW Episode HS: 1
+(304, 9659, 3049659) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 305
+(305, 1409, 3051409) - NEW Episode HS: 1
+(305, 4429, 3054429) - - - - - Repeat Episode HS: 1
+(305, 7253, 3057253) - - - - - Repeat Episode HS: 1
+(305, 7852, 3057852) - - - - - Repeat Episode HS: 1
+(305, 8223, 3058223) - - - - - Repeat Episode HS: 1
+(305, 8794, 3058794) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 306
+(306, 1052, 3061052) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 307
+(307, 3840, 3073840) - NEW Episode HS: 1
+(307, 4312, 3074312) - - - - - Repeat Episode HS: 1
+(307, 9405, 3079405) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 308
+(308, 603, 3080603) - NEW Episode HS: 1
+(308, 3345, 3083345) - - - - - Repeat Episode HS: 1
+(308, 4662, 3084662) - - - - - Repeat Episode HS: 1
+(308, 7734, 3087734) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 309
+(309, 9873, 3099873) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 310
+(310, 894, 3100894) - NEW Episode HS: 1
+(310, 2707, 3102707) - - - - - Repeat Episode HS: 1
+(310, 5305, 3105305) - - - - - Repeat Episode HS: 1
+(310, 8128, 3108128) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 311
+(311, 8838, 3118838) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 312
+(312, 1419, 3121419) - NEW Episode HS: 1
+(312, 8520, 3128520) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 313
+(313, 3510, 3133510) - NEW Episode HS: 1
+(313, 8545, 3138545) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 314
+(314, 2502, 3142502) - NEW Episode HS: 1
+(314, 7356, 3147356) - - - - - Repeat Episode HS: 1
+(314, 8236, 3148236) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 315
+(315, 1527, 3151527) - NEW Episode HS: 1
+(315, 2152, 3152152) - - - - - Repeat Episode HS: 1
+(315, 9612, 3159612) - - - - - Repeat Episode HS: 1
+(315, 9938, 3159938) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 316
+(316, 4752, 3164752) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 317
+(317, 1009, 3171009) - NEW Episode HS: 1
+(317, 2253, 3172253) - - - - - Repeat Episode HS: 1
+(317, 6705, 3176705) - - - - - Repeat Episode HS: 1
+(317, 7218, 3177218) - - - - - Repeat Episode HS: 1
+(317, 7750, 3177750) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 318
+(318, 1026, 3181026) - NEW Episode HS: 1
+(318, 6963, 3186963) - - - - - Repeat Episode HS: 1
+(318, 7313, 3187313) - - - - - Repeat Episode HS: 1
+(318, 7403, 3187403) - - - - - Repeat Episode HS: 1
+(318, 9857, 3189857) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 319
+(319, 232, 3190232) - NEW Episode HS: 1
+(319, 3307, 3193307) - - - - - Repeat Episode HS: 1
+(319, 5130, 3195130) - - - - - Repeat Episode HS: 1
+(319, 6121, 3196121) - - - - - Repeat Episode HS: 1
+(319, 7248, 3197248) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 320
+(320, 14, 3200014) - NEW Episode HS: 1
+(320, 675, 3200675) - - - - - Repeat Episode HS: 1
+(320, 2500, 3202500) - - - - - Repeat Episode HS: 1
+(320, 3410, 3203410) - - - - - Repeat Episode HS: 1
+(320, 3482, 3203482) - - - - - Repeat Episode HS: 1
+(320, 3790, 3203790) - - - - - Repeat Episode HS: 1
+(320, 3871, 3203871) - - - - - Repeat Episode HS: 1
+(320, 5458, 3205458) - - - - - Repeat Episode HS: 1
+(320, 6124, 3206124) - - - - - Repeat Episode HS: 1
+(320, 8426, 3208426) - - - - - Repeat Episode HS: 1
+(320, 9619, 3209619) - - - - - Repeat Episode HS: 1
+Performance Points: 11
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 321
+(321, 5627, 3215627) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 322
+(322, 1463, 3221463) - NEW Episode HS: 1
+(322, 1690, 3221690) - - - - - Repeat Episode HS: 1
+(322, 1760, 3221760) - - - - - Repeat Episode HS: 1
+(322, 3884, 3223884) - - - - - Repeat Episode HS: 1
+(322, 7587, 3227587) - - - - - Repeat Episode HS: 1
+(322, 8303, 3228303) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 323
+(323, 112, 3230112) - NEW Episode HS: 1
+(323, 415, 3230415) - - - - - Repeat Episode HS: 1
+(323, 1574, 3231574) - - - - - Repeat Episode HS: 1
+(323, 2693, 3232693) - - - - - Repeat Episode HS: 1
+(323, 3101, 3233101) - - - - - Repeat Episode HS: 1
+(323, 4353, 3234353) - - - - - Repeat Episode HS: 1
+(323, 6226, 3236226) - - - - - Repeat Episode HS: 1
+(323, 6947, 3236947) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 324
+(324, 1567, 3241567) - NEW Episode HS: 1
+(324, 7064, 3247064) - - - - - Repeat Episode HS: 1
+(324, 8559, 3248559) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 325
+(325, 607, 3250607) - NEW Episode HS: 1
+(325, 3549, 3253549) - - - - - Repeat Episode HS: 1
+(325, 5124, 3255124) - - - - - Repeat Episode HS: 1
+(325, 7377, 3257377) - - - - - Repeat Episode HS: 1
+(325, 9104, 3259104) - - - - - Repeat Episode HS: 1
+(325, 9800, 3259800) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 326
+(326, 1040, 3261040) - NEW Episode HS: 1
+(326, 1800, 3261800) - - - - - Repeat Episode HS: 1
+(326, 3958, 3263958) - - - - - Repeat Episode HS: 1
+(326, 4232, 3264232) - - - - - Repeat Episode HS: 1
+(326, 6796, 3266796) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 327
+(327, 1128, 3271128) - NEW Episode HS: 1
+(327, 1768, 3271768) - - - - - Repeat Episode HS: 1
+(327, 8713, 3278713) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 328
+(328, 325, 3280325) - NEW Episode HS: 1
+(328, 528, 3280528) - - - - - Repeat Episode HS: 1
+(328, 1615, 3281615) - - - - - Repeat Episode HS: 1
+(328, 6287, 3286287) - - - - - Repeat Episode HS: 1
+(328, 7606, 3287606) - - - - - Repeat Episode HS: 1
+(328, 8393, 3288393) - - - - - Repeat Episode HS: 1
+(328, 9077, 3289077) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 329
+(329, 8786, 3298786) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 330
+(330, 4624, 3304624) - NEW Episode HS: 1
+(330, 8592, 3308592) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 331
+(331, 2275, 3312275) - NEW Episode HS: 1
+(331, 2500, 3312500) - - - - - Repeat Episode HS: 1
+(331, 9166, 3319166) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 332
+(332, 398, 3320398) - NEW Episode HS: 1
+(332, 2314, 3322314) - - - - - Repeat Episode HS: 1
+(332, 5037, 3325037) - - - - - Repeat Episode HS: 1
+(332, 8909, 3328909) - - - - - Repeat Episode HS: 1
+(332, 9134, 3329134) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 333
+(333, 2425, 3332425) - NEW Episode HS: 1
+(333, 3087, 3333087) - - - - - Repeat Episode HS: 1
+(333, 3593, 3333593) - - - - - Repeat Episode HS: 1
+(333, 5574, 3335574) - - - - - Repeat Episode HS: 1
+(333, 6765, 3336765) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 334
+(334, 2676, 3342676) - NEW Episode HS: 1
+(334, 3043, 3343043) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 335
+(335, 391, 3350391) - NEW Episode HS: 1
+(335, 1861, 3351861) - - - - - Repeat Episode HS: 1
+(335, 5073, 3355073) - - - - - Repeat Episode HS: 1
+(335, 9218, 3359218) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 336
+(336, 345, 3360345) - NEW Episode HS: 1
+(336, 4453, 3364453) - - - - - Repeat Episode HS: 1
+(336, 6870, 3366870) - - - - - Repeat Episode HS: 1
+(336, 7478, 3367478) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 337
+(337, 1093, 3371093) - NEW Episode HS: 1
+(337, 2056, 3372056) - - - - - Repeat Episode HS: 1
+(337, 2139, 3372139) - - - - - Repeat Episode HS: 1
+(337, 3501, 3373501) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 338
+(338, 4512, 3384512) - NEW Episode HS: 1
+(338, 6084, 3386084) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 339
+(339, 153, 3390153) - NEW Episode HS: 1
+(339, 1110, 3391110) - - - - - Repeat Episode HS: 1
+(339, 3130, 3393130) - - - - - Repeat Episode HS: 1
+(339, 5095, 3395095) - - - - - Repeat Episode HS: 1
+(339, 6241, 3396241) - - - - - Repeat Episode HS: 1
+(339, 7138, 3397138) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 340
+(340, 4015, 3404015) - NEW Episode HS: 1
+(340, 4408, 3404408) - - - - - Repeat Episode HS: 1
+(340, 4523, 3404523) - - - - - Repeat Episode HS: 1
+(340, 6710, 3406710) - - - - - Repeat Episode HS: 1
+(340, 7120, 3407120) - - - - - Repeat Episode HS: 1
+(340, 7760, 3407760) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 341
+(341, 903, 3410903) - NEW Episode HS: 1
+(341, 6851, 3416851) - - - - - Repeat Episode HS: 1
+(341, 8754, 3418754) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 342
+(342, 803, 3420803) - NEW Episode HS: 1
+(342, 1140, 3421140) - - - - - Repeat Episode HS: 1
+(342, 1274, 3421274) - - - - - Repeat Episode HS: 1
+(342, 4505, 3424505) - - - - - Repeat Episode HS: 1
+(342, 5773, 3425773) - - - - - Repeat Episode HS: 1
+(342, 9368, 3429368) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 343
+(343, 734, 3430734) - NEW Episode HS: 1
+(343, 5140, 3435140) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 344
+(344, 8279, 3448279) - NEW Episode HS: 1
+(344, 8882, 3448882) - - - - - Repeat Episode HS: 1
+(344, 9918, 3449918) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 345
+(345, 758, 3450758) - NEW Episode HS: 1
+(345, 3568, 3453568) - - - - - Repeat Episode HS: 1
+(345, 5330, 3455330) - - - - - Repeat Episode HS: 1
+(345, 5752, 3455752) - - - - - Repeat Episode HS: 1
+(345, 6866, 3456866) - - - - - Repeat Episode HS: 1
+(345, 9397, 3459397) - - - - - Repeat Episode HS: 1
+(345, 9427, 3459427) - - - - - Repeat Episode HS: 1
+(345, 9562, 3459562) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 346
+(346, 793, 3460793) - NEW Episode HS: 1
+(346, 2124, 3462124) - - - - - Repeat Episode HS: 1
+(346, 3595, 3463595) - - - - - Repeat Episode HS: 1
+(346, 8086, 3468086) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 347
+(347, 1195, 3471195) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 348
+(348, 3957, 3483957) - NEW Episode HS: 1
+(348, 6741, 3486741) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 349
+(349, 1251, 3491251) - NEW Episode HS: 1
+(349, 5222, 3495222) - - - - - Repeat Episode HS: 1
+(349, 5416, 3495416) - - - - - Repeat Episode HS: 1
+(349, 5732, 3495732) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 350
+(350, 615, 3500615) - NEW Episode HS: 1
+(350, 1179, 3501179) - - - - - Repeat Episode HS: 1
+(350, 5118, 3505118) - - - - - Repeat Episode HS: 1
+(350, 5221, 3505221) - - - - - Repeat Episode HS: 1
+(350, 8631, 3508631) - - - - - Repeat Episode HS: 1
+(350, 9318, 3509318) - - - - - Repeat Episode HS: 1
+(350, 9455, 3509455) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 351
+(351, 368, 3510368) - NEW Episode HS: 1
+(351, 1295, 3511295) - - - - - Repeat Episode HS: 1
+(351, 1765, 3511765) - - - - - Repeat Episode HS: 1
+(351, 3247, 3513247) - - - - - Repeat Episode HS: 1
+(351, 4508, 3514508) - - - - - Repeat Episode HS: 1
+(351, 5830, 3515830) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 352
+(352, 2193, 3522193) - NEW Episode HS: 1
+(352, 2715, 3522715) - - - - - Repeat Episode HS: 1
+(352, 3999, 3523999) - - - - - Repeat Episode HS: 1
+(352, 4564, 3524564) - - - - - Repeat Episode HS: 1
+(352, 7461, 3527461) - - - - - Repeat Episode HS: 1
+(352, 9939, 3529939) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 353
+(353, 2646, 3532646) - NEW Episode HS: 1
+(353, 4197, 3534197) - - - - - Repeat Episode HS: 1
+(353, 6717, 3536717) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 354
+(354, 9620, 3549620) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 355
+(355, 1392, 3551392) - NEW Episode HS: 1
+(355, 3482, 3553482) - - - - - Repeat Episode HS: 1
+(355, 4408, 3554408) - - - - - Repeat Episode HS: 1
+(355, 6622, 3556622) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 356
+(356, 7532, 3567532) - NEW Episode HS: 1
+(356, 7749, 3567749) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 357
+(357, 2784, 3572784) - NEW Episode HS: 1
+(357, 4723, 3574723) - - - - - Repeat Episode HS: 1
+(357, 5820, 3575820) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 358
+(358, 6959, 3586959) - NEW Episode HS: 1
+(358, 7055, 3587055) - - - - - Repeat Episode HS: 1
+(358, 8474, 3588474) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 359
+(359, 58, 3590058) - NEW Episode HS: 1
+(359, 1422, 3591422) - - - - - Repeat Episode HS: 1
+(359, 6319, 3596319) - - - - - Repeat Episode HS: 1
+(359, 8025, 3598025) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 360
+(360, 5093, 3605093) - NEW Episode HS: 1
+(360, 9415, 3609415) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 361
+(361, 1602, 3611602) - NEW Episode HS: 1
+(361, 6057, 3616057) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 362
+(362, 2383, 3622383) - NEW Episode HS: 1
+(362, 4283, 3624283) - - - - - Repeat Episode HS: 1
+(362, 9185, 3629185) - - - - - Repeat Episode HS: 1
+(362, 9902, 3629902) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 363
+(363, 5982, 3635982) - NEW Episode HS: 1
+(363, 7867, 3637867) - - - - - Repeat Episode HS: 1
+(363, 8680, 3638680) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 364
+(364, 1566, 3641566) - NEW Episode HS: 1
+(364, 5552, 3645552) - - - - - Repeat Episode HS: 1
+(364, 7591, 3647591) - - - - - Repeat Episode HS: 1
+(364, 9524, 3649524) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 365
+(365, 453, 3650453) - NEW Episode HS: 1
+(365, 941, 3650941) - - - - - Repeat Episode HS: 1
+(365, 1420, 3651420) - - - - - Repeat Episode HS: 1
+(365, 1475, 3651475) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 366
+(366, 8719, 3668719) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 367
+(367, 326, 3670326) - NEW Episode HS: 1
+(367, 1783, 3671783) - - - - - Repeat Episode HS: 1
+(367, 3585, 3673585) - - - - - Repeat Episode HS: 1
+(367, 6188, 3676188) - - - - - Repeat Episode HS: 1
+(367, 6486, 3676486) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 368
+(368, 92, 3680092) - NEW Episode HS: 1
+(368, 8450, 3688450) - - - - - Repeat Episode HS: 1
+(368, 8650, 3688650) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 369
+(369, 1502, 3691502) - NEW Episode HS: 1
+(369, 6974, 3696974) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 370
+(370, 2410, 3702410) - NEW Episode HS: 1
+(370, 3207, 3703207) - - - - - Repeat Episode HS: 1
+(370, 7497, 3707497) - - - - - Repeat Episode HS: 1
+(370, 8929, 3708929) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 371
+(371, 2008, 3712008) - NEW Episode HS: 1
+(371, 8374, 3718374) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 372
+(372, 479, 3720479) - NEW Episode HS: 1
+(372, 3606, 3723606) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 373
+(373, 1532, 3731532) - NEW Episode HS: 1
+(373, 5833, 3735833) - - - - - Repeat Episode HS: 1
+(373, 7829, 3737829) - - - - - Repeat Episode HS: 1
+(373, 8356, 3738356) - - - - - Repeat Episode HS: 1
+(373, 9245, 3739245) - - - - - Repeat Episode HS: 1
+(373, 9681, 3739681) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 374
+(374, 5425, 3745425) - NEW Episode HS: 1
+(374, 7592, 3747592) - - - - - Repeat Episode HS: 1
+(374, 7635, 3747635) - - - - - Repeat Episode HS: 1
+(374, 7747, 3747747) - - - - - Repeat Episode HS: 1
+(374, 8475, 3748475) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 375
+(375, 4282, 3754282) - NEW Episode HS: 1
+(375, 5642, 3755642) - - - - - Repeat Episode HS: 1
+(375, 9560, 3759560) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 376
+(376, 153, 3760153) - NEW Episode HS: 1
+(376, 4208, 3764208) - - - - - Repeat Episode HS: 1
+(376, 6976, 3766976) - - - - - Repeat Episode HS: 1
+(376, 8314, 3768314) - - - - - Repeat Episode HS: 1
+(376, 9395, 3769395) - - - - - Repeat Episode HS: 1
+(376, 9849, 3769849) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 377
+(377, 5569, 3775569) - NEW Episode HS: 1
+(377, 6106, 3776106) - - - - - Repeat Episode HS: 1
+(377, 6665, 3776665) - - - - - Repeat Episode HS: 1
+(377, 8175, 3778175) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 378
+(378, 3985, 3783985) - NEW Episode HS: 1
+(378, 4639, 3784639) - - - - - Repeat Episode HS: 1
+(378, 6907, 3786907) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 379
+(379, 9162, 3799162) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 380
+(380, 977, 3800977) - NEW Episode HS: 1
+(380, 1940, 3801940) - - - - - Repeat Episode HS: 1
+(380, 3503, 3803503) - - - - - Repeat Episode HS: 1
+(380, 4721, 3804721) - - - - - Repeat Episode HS: 1
+(380, 6096, 3806096) - - - - - Repeat Episode HS: 1
+(380, 8427, 3808427) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 381
+(381, 842, 3810842) - NEW Episode HS: 1
+(381, 6521, 3816521) - - - - - Repeat Episode HS: 1
+(381, 6956, 3816956) - - - - - Repeat Episode HS: 1
+(381, 7403, 3817403) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 382
+(382, 7971, 3827971) - NEW Episode HS: 1
+(382, 8251, 3828251) - - - - - Repeat Episode HS: 1
+(382, 8631, 3828631) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 383
+(383, 4526, 3834526) - NEW Episode HS: 1
+(383, 7793, 3837793) - - - - - Repeat Episode HS: 1
+(383, 9937, 3839937) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 384
+(384, 2226, 3842226) - NEW Episode HS: 1
+(384, 2509, 3842509) - - - - - Repeat Episode HS: 1
+(384, 6250, 3846250) - - - - - Repeat Episode HS: 1
+(384, 8485, 3848485) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 385
+(385, 2789, 3852789) - NEW Episode HS: 1
+(385, 3387, 3853387) - - - - - Repeat Episode HS: 1
+(385, 4828, 3854828) - - - - - Repeat Episode HS: 1
+(385, 6682, 3856682) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 386
+(386, 3530, 3863530) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 387
+(387, 685, 3870685) - NEW Episode HS: 1
+(387, 1083, 3871083) - - - - - Repeat Episode HS: 1
+(387, 2901, 3872901) - - - - - Repeat Episode HS: 1
+(387, 5643, 3875643) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 388
+(388, 4153, 3884153) - NEW Episode HS: 1
+(388, 7499, 3887499) - - - - - Repeat Episode HS: 1
+(388, 7709, 3887709) - - - - - Repeat Episode HS: 1
+(388, 9815, 3889815) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 389
+(389, 1141, 3891141) - NEW Episode HS: 1
+(389, 8240, 3898240) - - - - - Repeat Episode HS: 1
+(389, 9712, 3899712) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 390
+(390, 5762, 3905762) - NEW Episode HS: 1
+(390, 6467, 3906467) - - - - - Repeat Episode HS: 1
+(390, 7424, 3907424) - - - - - Repeat Episode HS: 1
+(390, 9561, 3909561) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 391
+(391, 3173, 3913173) - NEW Episode HS: 1
+(391, 3253, 3913253) - - - - - Repeat Episode HS: 1
+(391, 7036, 3917036) - - - - - Repeat Episode HS: 1
+(391, 9011, 3919011) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 392
+(392, 2869, 3922869) - NEW Episode HS: 1
+(392, 3940, 3923940) - - - - - Repeat Episode HS: 1
+(392, 4235, 3924235) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 393
+(393, 1641, 3931641) - NEW Episode HS: 1
+(393, 5071, 3935071) - - - - - Repeat Episode HS: 1
+(393, 8023, 3938023) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 394
+(394, 126, 3940126) - NEW Episode HS: 1
+(394, 4657, 3944657) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 395
+(395, 3513, 3953513) - NEW Episode HS: 1
+(395, 5340, 3955340) - - - - - Repeat Episode HS: 1
+(395, 7101, 3957101) - - - - - Repeat Episode HS: 1
+(395, 9291, 3959291) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 396
+(396, 2995, 3962995) - NEW Episode HS: 1
+(396, 2999, 3962999) - - - - - Repeat Episode HS: 1
+(396, 4576, 3964576) - - - - - Repeat Episode HS: 1
+(396, 8696, 3968696) - - - - - Repeat Episode HS: 1
+(396, 9868, 3969868) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 397
+(397, 879, 3970879) - NEW Episode HS: 1
+(397, 2874, 3972874) - - - - - Repeat Episode HS: 1
+(397, 3184, 3973184) - - - - - Repeat Episode HS: 1
+(397, 4674, 3974674) - - - - - Repeat Episode HS: 1
+(397, 4994, 3974994) - - - - - Repeat Episode HS: 1
+(397, 8370, 3978370) - - - - - Repeat Episode HS: 1
+(397, 8972, 3978972) - - - - - Repeat Episode HS: 1
+(397, 9344, 3979344) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 398
+(398, 331, 3980331) - NEW Episode HS: 1
+(398, 5329, 3985329) - - - - - Repeat Episode HS: 1
+(398, 6099, 3986099) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 399
+(399, 4522, 3994522) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 400
+(400, 2567, 4002567) - NEW Episode HS: 1
+(400, 3362, 4003362) - - - - - Repeat Episode HS: 1
+(400, 3774, 4003774) - - - - - Repeat Episode HS: 1
+(400, 5138, 4005138) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 401
+(401, 29, 4010029) - NEW Episode HS: 1
+(401, 925, 4010925) - - - - - Repeat Episode HS: 1
+(401, 5497, 4015497) - - - - - Repeat Episode HS: 1
+(401, 5957, 4015957) - - - - - Repeat Episode HS: 1
+(401, 7076, 4017076) - - - - - Repeat Episode HS: 1
+(401, 8969, 4018969) - - - - - Repeat Episode HS: 1
+(401, 9251, 4019251) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 402
+(402, 167, 4020167) - NEW Episode HS: 1
+(402, 1510, 4021510) - - - - - Repeat Episode HS: 1
+(402, 3889, 4023889) - - - - - Repeat Episode HS: 1
+(402, 6248, 4026248) - - - - - Repeat Episode HS: 1
+(402, 6546, 4026546) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 403
+(403, 113, 4030113) - NEW Episode HS: 1
+(403, 503, 4030503) - - - - - Repeat Episode HS: 1
+(403, 554, 4030554) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 404
+(404, 130, 4040130) - NEW Episode HS: 1
+(404, 1188, 4041188) - - - - - Repeat Episode HS: 1
+(404, 4615, 4044615) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 405
+(405, 7053, 4057053) - NEW Episode HS: 1
+(405, 7980, 4057980) - - - - - Repeat Episode HS: 1
+(405, 8595, 4058595) - - - - - Repeat Episode HS: 1
+(405, 9770, 4059770) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 406
+(406, 104, 4060104) - NEW Episode HS: 1
+(406, 2086, 4062086) - - - - - Repeat Episode HS: 1
+(406, 3708, 4063708) - - - - - Repeat Episode HS: 1
+(406, 4766, 4064766) - - - - - Repeat Episode HS: 1
+(406, 5255, 4065255) - - - - - Repeat Episode HS: 1
+(406, 6191, 4066191) - - - - - Repeat Episode HS: 1
+(406, 9506, 4069506) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 407
+(407, 3863, 4073863) - NEW Episode HS: 1
+(407, 4152, 4074152) - - - - - Repeat Episode HS: 1
+(407, 7491, 4077491) - - - - - Repeat Episode HS: 1
+(407, 8622, 4078622) - - - - - Repeat Episode HS: 1
+(407, 9583, 4079583) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 408
+(408, 1426, 4081426) - NEW Episode HS: 1
+(408, 3738, 4083738) - - - - - Repeat Episode HS: 1
+(408, 9025, 4089025) - - - - - Repeat Episode HS: 1
+(408, 9344, 4089344) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 409
+(409, 733, 4090733) - NEW Episode HS: 1
+(409, 1794, 4091794) - - - - - Repeat Episode HS: 1
+(409, 8317, 4098317) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 410
+(410, 171, 4100171) - NEW Episode HS: 1
+(410, 367, 4100367) - - - - - Repeat Episode HS: 1
+(410, 834, 4100834) - - - - - Repeat Episode HS: 1
+(410, 2675, 4102675) - - - - - Repeat Episode HS: 1
+(410, 3709, 4103709) - - - - - Repeat Episode HS: 1
+(410, 4830, 4104830) - - - - - Repeat Episode HS: 1
+(410, 5542, 4105542) - - - - - Repeat Episode HS: 1
+(410, 7220, 4107220) - - - - - Repeat Episode HS: 1
+(410, 9928, 4109928) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 411
+(411, 1582, 4111582) - NEW Episode HS: 1
+(411, 4253, 4114253) - - - - - Repeat Episode HS: 1
+(411, 7367, 4117367) - - - - - Repeat Episode HS: 1
+(411, 7502, 4117502) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 412
+(412, 2682, 4122682) - NEW Episode HS: 1
+(412, 3170, 4123170) - - - - - Repeat Episode HS: 1
+(412, 3234, 4123234) - - - - - Repeat Episode HS: 1
+(412, 3902, 4123902) - - - - - Repeat Episode HS: 1
+(412, 4936, 4124936) - - - - - Repeat Episode HS: 1
+(412, 5941, 4125941) - - - - - Repeat Episode HS: 1
+(412, 6987, 4126987) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 413
+Performance Points: 0
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 414
+(414, 493, 4140493) - NEW Episode HS: 1
+(414, 1125, 4141125) - - - - - Repeat Episode HS: 1
+(414, 1367, 4141367) - - - - - Repeat Episode HS: 1
+(414, 2242, 4142242) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 415
+(415, 1130, 4151130) - NEW Episode HS: 1
+(415, 2369, 4152369) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 416
+(416, 6107, 4166107) - NEW Episode HS: 1
+(416, 6448, 4166448) - - - - - Repeat Episode HS: 1
+(416, 8240, 4168240) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 417
+(417, 2905, 4172905) - NEW Episode HS: 1
+(417, 5486, 4175486) - - - - - Repeat Episode HS: 1
+(417, 7087, 4177087) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 418
+(418, 4477, 4184477) - NEW Episode HS: 1
+(418, 5218, 4185218) - - - - - Repeat Episode HS: 1
+(418, 9471, 4189471) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 419
+(419, 5047, 4195047) - NEW Episode HS: 1
+(419, 7201, 4197201) - - - - - Repeat Episode HS: 1
+(419, 8369, 4198369) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 420
+(420, 3261, 4203261) - NEW Episode HS: 1
+(420, 5534, 4205534) - - - - - Repeat Episode HS: 1
+(420, 5969, 4205969) - - - - - Repeat Episode HS: 1
+(420, 9851, 4209851) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 421
+(421, 7233, 4217233) - NEW Episode HS: 1
+(421, 7545, 4217545) - - - - - Repeat Episode HS: 1
+(421, 8883, 4218883) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 422
+(422, 4904, 4224904) - NEW Episode HS: 1
+(422, 9713, 4229713) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 423
+(423, 3317, 4233317) - NEW Episode HS: 1
+(423, 7946, 4237946) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 424
+(424, 3710, 4243710) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 425
+(425, 954, 4250954) - NEW Episode HS: 1
+(425, 2808, 4252808) - - - - - Repeat Episode HS: 1
+(425, 4617, 4254617) - - - - - Repeat Episode HS: 1
+(425, 5994, 4255994) - - - - - Repeat Episode HS: 1
+(425, 8384, 4258384) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 426
+(426, 5243, 4265243) - NEW Episode HS: 1
+(426, 7316, 4267316) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 427
+(427, 3301, 4273301) - NEW Episode HS: 1
+(427, 5875, 4275875) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 428
+(428, 919, 4280919) - NEW Episode HS: 1
+(428, 1660, 4281660) - - - - - Repeat Episode HS: 1
+(428, 3202, 4283202) - - - - - Repeat Episode HS: 1
+(428, 4986, 4284986) - - - - - Repeat Episode HS: 1
+(428, 5624, 4285624) - - - - - Repeat Episode HS: 1
+(428, 6772, 4286772) - - - - - Repeat Episode HS: 1
+(428, 7548, 4287548) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 429
+(429, 458, 4290458) - NEW Episode HS: 1
+(429, 1131, 4291131) - - - - - Repeat Episode HS: 1
+(429, 8881, 4298881) - - - - - Repeat Episode HS: 1
+(429, 8961, 4298961) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 430
+(430, 932, 4300932) - NEW Episode HS: 1
+(430, 2581, 4302581) - - - - - Repeat Episode HS: 1
+(430, 3763, 4303763) - - - - - Repeat Episode HS: 1
+(430, 4476, 4304476) - - - - - Repeat Episode HS: 1
+(430, 6761, 4306761) - - - - - Repeat Episode HS: 1
+(430, 9294, 4309294) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 431
+(431, 5773, 4315773) - NEW Episode HS: 1
+(431, 7007, 4317007) - - - - - Repeat Episode HS: 1
+(431, 9375, 4319375) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 432
+(432, 4349, 4324349) - NEW Episode HS: 1
+(432, 5146, 4325146) - - - - - Repeat Episode HS: 1
+(432, 5812, 4325812) - - - - - Repeat Episode HS: 1
+(432, 6903, 4326903) - - - - - Repeat Episode HS: 1
+(432, 9792, 4329792) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 433
+(433, 1158, 4331158) - NEW Episode HS: 1
+(433, 5506, 4335506) - - - - - Repeat Episode HS: 1
+(433, 9960, 4339960) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 434
+(434, 437, 4340437) - NEW Episode HS: 1
+(434, 2210, 4342210) - - - - - Repeat Episode HS: 1
+(434, 2673, 4342673) - - - - - Repeat Episode HS: 1
+(434, 3912, 4343912) - - - - - Repeat Episode HS: 1
+(434, 6678, 4346678) - - - - - Repeat Episode HS: 1
+(434, 9722, 4349722) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 435
+(435, 1830, 4351830) - NEW Episode HS: 1
+(435, 7596, 4357596) - - - - - Repeat Episode HS: 1
+(435, 8752, 4358752) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 436
+(436, 1826, 4361826) - NEW Episode HS: 1
+(436, 2950, 4362950) - - - - - Repeat Episode HS: 1
+(436, 4115, 4364115) - - - - - Repeat Episode HS: 1
+(436, 9594, 4369594) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 437
+(437, 1376, 4371376) - NEW Episode HS: 1
+(437, 2115, 4372115) - - - - - Repeat Episode HS: 1
+(437, 2934, 4372934) - - - - - Repeat Episode HS: 1
+(437, 3041, 4373041) - - - - - Repeat Episode HS: 1
+(437, 6629, 4376629) - - - - - Repeat Episode HS: 1
+(437, 8631, 4378631) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 438
+(438, 1061, 4381061) - NEW Episode HS: 1
+(438, 1169, 4381169) - - - - - Repeat Episode HS: 1
+(438, 1654, 4381654) - - - - - Repeat Episode HS: 1
+(438, 1891, 4381891) - - - - - Repeat Episode HS: 1
+(438, 5939, 4385939) - - - - - Repeat Episode HS: 1
+(438, 8853, 4388853) - - - - - Repeat Episode HS: 1
+(438, 8950, 4388950) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 439
+(439, 1858, 4391858) - NEW Episode HS: 1
+(439, 5519, 4395519) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 440
+(440, 1127, 4401127) - NEW Episode HS: 1
+(440, 4729, 4404729) - - - - - Repeat Episode HS: 1
+(440, 9346, 4409346) - - - - - Repeat Episode HS: 1
+(440, 9411, 4409411) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 441
+(441, 2343, 4412343) - NEW Episode HS: 1
+(441, 5545, 4415545) - - - - - Repeat Episode HS: 1
+(441, 8503, 4418503) - - - - - Repeat Episode HS: 1
+(441, 8875, 4418875) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 442
+(442, 390, 4420390) - NEW Episode HS: 1
+(442, 6055, 4426055) - - - - - Repeat Episode HS: 1
+(442, 6655, 4426655) - - - - - Repeat Episode HS: 1
+(442, 8021, 4428021) - - - - - Repeat Episode HS: 1
+(442, 9404, 4429404) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 443
+(443, 323, 4430323) - NEW Episode HS: 1
+(443, 1506, 4431506) - - - - - Repeat Episode HS: 1
+(443, 4275, 4434275) - - - - - Repeat Episode HS: 1
+(443, 9260, 4439260) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 444
+(444, 1338, 4441338) - NEW Episode HS: 1
+(444, 1673, 4441673) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 445
+(445, 4339, 4454339) - NEW Episode HS: 1
+(445, 4394, 4454394) - - - - - Repeat Episode HS: 1
+(445, 4467, 4454467) - - - - - Repeat Episode HS: 1
+(445, 5936, 4455936) - - - - - Repeat Episode HS: 1
+(445, 9072, 4459072) - - - - - Repeat Episode HS: 1
+(445, 9164, 4459164) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 446
+(446, 218, 4460218) - NEW Episode HS: 1
+(446, 3535, 4463535) - - - - - Repeat Episode HS: 1
+(446, 6001, 4466001) - - - - - Repeat Episode HS: 1
+(446, 9679, 4469679) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 447
+(447, 2116, 4472116) - NEW Episode HS: 1
+(447, 3857, 4473857) - - - - - Repeat Episode HS: 1
+(447, 5338, 4475338) - - - - - Repeat Episode HS: 1
+(447, 5462, 4475462) - - - - - Repeat Episode HS: 1
+(447, 5611, 4475611) - - - - - Repeat Episode HS: 1
+(447, 8233, 4478233) - - - - - Repeat Episode HS: 1
+(447, 8492, 4478492) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 448
+(448, 1502, 4481502) - NEW Episode HS: 1
+(448, 2915, 4482915) - - - - - Repeat Episode HS: 1
+(448, 6712, 4486712) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 449
+(449, 537, 4490537) - NEW Episode HS: 1
+(449, 737, 4490737) - - - - - Repeat Episode HS: 1
+(449, 2069, 4492069) - - - - - Repeat Episode HS: 1
+(449, 3370, 4493370) - - - - - Repeat Episode HS: 1
+(449, 5042, 4495042) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 450
+(450, 3196, 4503196) - NEW Episode HS: 1
+(450, 6912, 4506912) - - - - - Repeat Episode HS: 1
+(450, 7895, 4507895) - - - - - Repeat Episode HS: 1
+(450, 9161, 4509161) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 451
+(451, 370, 4510370) - NEW Episode HS: 1
+(451, 3268, 4513268) - - - - - Repeat Episode HS: 1
+(451, 8118, 4518118) - - - - - Repeat Episode HS: 1
+(451, 9133, 4519133) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 452
+(452, 4630, 4524630) - NEW Episode HS: 1
+(452, 5560, 4525560) - - - - - Repeat Episode HS: 1
+(452, 7959, 4527959) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 453
+(453, 294, 4530294) - NEW Episode HS: 1
+(453, 3072, 4533072) - - - - - Repeat Episode HS: 1
+(453, 4919, 4534919) - - - - - Repeat Episode HS: 1
+(453, 8500, 4538500) - - - - - Repeat Episode HS: 1
+(453, 9698, 4539698) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 454
+(454, 584, 4540584) - NEW Episode HS: 1
+(454, 1454, 4541454) - - - - - Repeat Episode HS: 1
+(454, 4701, 4544701) - - - - - Repeat Episode HS: 1
+(454, 6345, 4546345) - - - - - Repeat Episode HS: 1
+(454, 7814, 4547814) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 455
+(455, 676, 4550676) - NEW Episode HS: 1
+(455, 1472, 4551472) - - - - - Repeat Episode HS: 1
+(455, 1777, 4551777) - - - - - Repeat Episode HS: 1
+(455, 2478, 4552478) - - - - - Repeat Episode HS: 1
+(455, 3043, 4553043) - - - - - Repeat Episode HS: 1
+(455, 4911, 4554911) - - - - - Repeat Episode HS: 1
+(455, 5712, 4555712) - - - - - Repeat Episode HS: 1
+(455, 8563, 4558563) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 456
+(456, 369, 4560369) - NEW Episode HS: 1
+(456, 5033, 4565033) - - - - - Repeat Episode HS: 1
+(456, 6821, 4566821) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 457
+(457, 2400, 4572400) - NEW Episode HS: 1
+(457, 4371, 4574371) - - - - - Repeat Episode HS: 1
+(457, 5316, 4575316) - - - - - Repeat Episode HS: 1
+(457, 5415, 4575415) - - - - - Repeat Episode HS: 1
+(457, 5450, 4575450) - - - - - Repeat Episode HS: 1
+(457, 5545, 4575545) - - - - - Repeat Episode HS: 1
+(457, 8196, 4578196) - - - - - Repeat Episode HS: 1
+(457, 9712, 4579712) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 458
+(458, 7741, 4587741) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 459
+(459, 2501, 4592501) - NEW Episode HS: 1
+(459, 3764, 4593764) - - - - - Repeat Episode HS: 1
+(459, 3911, 4593911) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 460
+(460, 991, 4600991) - NEW Episode HS: 1
+(460, 2095, 4602095) - - - - - Repeat Episode HS: 1
+(460, 3469, 4603469) - - - - - Repeat Episode HS: 1
+(460, 3554, 4603554) - - - - - Repeat Episode HS: 1
+(460, 7657, 4607657) - - - - - Repeat Episode HS: 1
+(460, 8601, 4608601) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 461
+(461, 168, 4610168) - NEW Episode HS: 1
+(461, 4119, 4614119) - - - - - Repeat Episode HS: 1
+(461, 5192, 4615192) - - - - - Repeat Episode HS: 1
+(461, 8047, 4618047) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 462
+(462, 2103, 4622103) - NEW Episode HS: 1
+(462, 2148, 4622148) - - - - - Repeat Episode HS: 1
+(462, 2239, 4622239) - - - - - Repeat Episode HS: 1
+(462, 3001, 4623001) - - - - - Repeat Episode HS: 1
+(462, 6189, 4626189) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 463
+(463, 4527, 4634527) - NEW Episode HS: 1
+(463, 4766, 4634766) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 464
+(464, 741, 4640741) - NEW Episode HS: 1
+(464, 9439, 4649439) - - - - - Repeat Episode HS: 1
+(464, 9517, 4649517) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 465
+(465, 2833, 4652833) - NEW Episode HS: 1
+(465, 7639, 4657639) - - - - - Repeat Episode HS: 1
+(465, 9408, 4659408) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 466
+(466, 530, 4660530) - NEW Episode HS: 1
+(466, 2332, 4662332) - - - - - Repeat Episode HS: 1
+(466, 6825, 4666825) - - - - - Repeat Episode HS: 1
+(466, 7094, 4667094) - - - - - Repeat Episode HS: 1
+(466, 9508, 4669508) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 467
+(467, 2042, 4672042) - NEW Episode HS: 1
+(467, 4148, 4674148) - - - - - Repeat Episode HS: 1
+(467, 5681, 4675681) - - - - - Repeat Episode HS: 1
+(467, 5957, 4675957) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 468
+(468, 2035, 4682035) - NEW Episode HS: 1
+(468, 5197, 4685197) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 469
+(469, 2987, 4692987) - NEW Episode HS: 1
+Performance Points: 1
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 470
+(470, 2947, 4702947) - NEW Episode HS: 1
+(470, 4467, 4704467) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 471
+(471, 2803, 4712803) - NEW Episode HS: 1
+(471, 6053, 4716053) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 472
+(472, 983, 4720983) - NEW Episode HS: 1
+(472, 1376, 4721376) - - - - - Repeat Episode HS: 1
+(472, 2768, 4722768) - - - - - Repeat Episode HS: 1
+(472, 6672, 4726672) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 473
+(473, 1351, 4731351) - NEW Episode HS: 1
+(473, 8314, 4738314) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 474
+(474, 3712, 4743712) - NEW Episode HS: 1
+(474, 6921, 4746921) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 475
+(475, 822, 4750822) - NEW Episode HS: 1
+(475, 7586, 4757586) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 476
+(476, 150, 4760150) - NEW Episode HS: 1
+(476, 1480, 4761480) - - - - - Repeat Episode HS: 1
+(476, 1762, 4761762) - - - - - Repeat Episode HS: 1
+(476, 2512, 4762512) - - - - - Repeat Episode HS: 1
+(476, 4470, 4764470) - - - - - Repeat Episode HS: 1
+(476, 4490, 4764490) - - - - - Repeat Episode HS: 1
+(476, 4674, 4764674) - - - - - Repeat Episode HS: 1
+(476, 8485, 4768485) - - - - - Repeat Episode HS: 1
+(476, 9434, 4769434) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 477
+(477, 9103, 4779103) - NEW Episode HS: 1
+(477, 9384, 4779384) - - - - - Repeat Episode HS: 1
+(477, 9923, 4779923) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 478
+(478, 5248, 4785248) - NEW Episode HS: 1
+(478, 5983, 4785983) - - - - - Repeat Episode HS: 1
+(478, 6227, 4786227) - - - - - Repeat Episode HS: 1
+(478, 7699, 4787699) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 479
+(479, 1288, 4791288) - NEW Episode HS: 1
+(479, 2103, 4792103) - - - - - Repeat Episode HS: 1
+(479, 3966, 4793966) - - - - - Repeat Episode HS: 1
+(479, 5637, 4795637) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 480
+(480, 481, 4800481) - NEW Episode HS: 1
+(480, 928, 4800928) - - - - - Repeat Episode HS: 1
+(480, 2800, 4802800) - - - - - Repeat Episode HS: 1
+(480, 4954, 4804954) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 481
+(481, 1887, 4811887) - NEW Episode HS: 1
+(481, 5019, 4815019) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 482
+(482, 712, 4820712) - NEW Episode HS: 1
+(482, 1825, 4821825) - - - - - Repeat Episode HS: 1
+(482, 2384, 4822384) - - - - - Repeat Episode HS: 1
+(482, 2991, 4822991) - - - - - Repeat Episode HS: 1
+(482, 5383, 4825383) - - - - - Repeat Episode HS: 1
+(482, 7775, 4827775) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 483
+(483, 3155, 4833155) - NEW Episode HS: 1
+(483, 4207, 4834207) - - - - - Repeat Episode HS: 1
+(483, 9409, 4839409) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 484
+(484, 3035, 4843035) - NEW Episode HS: 1
+(484, 3322, 4843322) - - - - - Repeat Episode HS: 1
+(484, 5510, 4845510) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 485
+(485, 804, 4850804) - NEW Episode HS: 1
+(485, 5488, 4855488) - - - - - Repeat Episode HS: 1
+(485, 7741, 4857741) - - - - - Repeat Episode HS: 1
+(485, 9256, 4859256) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 486
+(486, 304, 4860304) - NEW Episode HS: 1
+(486, 7493, 4867493) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 487
+(487, 4830, 4874830) - NEW Episode HS: 1
+(487, 5756, 4875756) - - - - - Repeat Episode HS: 1
+(487, 6463, 4876463) - - - - - Repeat Episode HS: 1
+(487, 6796, 4876796) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 488
+(488, 2166, 4882166) - NEW Episode HS: 1
+(488, 2458, 4882458) - - - - - Repeat Episode HS: 1
+(488, 6033, 4886033) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 489
+(489, 4607, 4894607) - NEW Episode HS: 1
+(489, 5523, 4895523) - - - - - Repeat Episode HS: 1
+(489, 5907, 4895907) - - - - - Repeat Episode HS: 1
+(489, 6123, 4896123) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 490
+(490, 905, 4900905) - NEW Episode HS: 1
+(490, 1182, 4901182) - - - - - Repeat Episode HS: 1
+(490, 5688, 4905688) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 491
+(491, 4755, 4914755) - NEW Episode HS: 1
+(491, 5829, 4915829) - - - - - Repeat Episode HS: 1
+(491, 6645, 4916645) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 492
+(492, 970, 4920970) - NEW Episode HS: 1
+(492, 2115, 4922115) - - - - - Repeat Episode HS: 1
+(492, 4870, 4924870) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 493
+(493, 1721, 4931721) - NEW Episode HS: 1
+(493, 1734, 4931734) - - - - - Repeat Episode HS: 1
+(493, 2472, 4932472) - - - - - Repeat Episode HS: 1
+(493, 2483, 4932483) - - - - - Repeat Episode HS: 1
+(493, 5686, 4935686) - - - - - Repeat Episode HS: 1
+(493, 6062, 4936062) - - - - - Repeat Episode HS: 1
+(493, 6758, 4936758) - - - - - Repeat Episode HS: 1
+(493, 8973, 4938973) - - - - - Repeat Episode HS: 1
+Performance Points: 8
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 494
+(494, 1740, 4941740) - NEW Episode HS: 1
+(494, 3932, 4943932) - - - - - Repeat Episode HS: 1
+(494, 4090, 4944090) - - - - - Repeat Episode HS: 1
+(494, 6462, 4946462) - - - - - Repeat Episode HS: 1
+(494, 7827, 4947827) - - - - - Repeat Episode HS: 1
+(494, 9592, 4949592) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 495
+(495, 713, 4950713) - NEW Episode HS: 1
+(495, 1188, 4951188) - - - - - Repeat Episode HS: 1
+(495, 4762, 4954762) - - - - - Repeat Episode HS: 1
+(495, 5029, 4955029) - - - - - Repeat Episode HS: 1
+(495, 6849, 4956849) - - - - - Repeat Episode HS: 1
+(495, 9856, 4959856) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 496
+(496, 3375, 4963375) - NEW Episode HS: 1
+(496, 5136, 4965136) - - - - - Repeat Episode HS: 1
+(496, 5612, 4965612) - - - - - Repeat Episode HS: 1
+(496, 7469, 4967469) - - - - - Repeat Episode HS: 1
+(496, 7869, 4967869) - - - - - Repeat Episode HS: 1
+(496, 9664, 4969664) - - - - - Repeat Episode HS: 1
+(496, 9777, 4969777) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 497
+(497, 312, 4970312) - NEW Episode HS: 1
+(497, 1347, 4971347) - - - - - Repeat Episode HS: 1
+(497, 2820, 4972820) - - - - - Repeat Episode HS: 1
+(497, 5775, 4975775) - - - - - Repeat Episode HS: 1
+(497, 9204, 4979204) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 498
+(498, 1702, 4981702) - NEW Episode HS: 1
+(498, 2722, 4982722) - - - - - Repeat Episode HS: 1
+(498, 6778, 4986778) - - - - - Repeat Episode HS: 1
+(498, 8363, 4988363) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 499
+(499, 761, 4990761) - NEW Episode HS: 1
+(499, 2465, 4992465) - - - - - Repeat Episode HS: 1
+(499, 5027, 4995027) - - - - - Repeat Episode HS: 1
+(499, 5070, 4995070) - - - - - Repeat Episode HS: 1
+(499, 7081, 4997081) - - - - - Repeat Episode HS: 1
+Performance Points: 5
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 500
+(500, 1520, 5001520) - NEW Episode HS: 1
+(500, 2000, 5002000) - - - - - Repeat Episode HS: 1
+(500, 2860, 5002860) - - - - - Repeat Episode HS: 1
+(500, 3884, 5003884) - - - - - Repeat Episode HS: 1
+(500, 6821, 5006821) - - - - - Repeat Episode HS: 1
+(500, 7621, 5007621) - - - - - Repeat Episode HS: 1
+(500, 8860, 5008860) - - - - - Repeat Episode HS: 1
+(500, 8867, 5008867) - - - - - Repeat Episode HS: 1
+(500, 9626, 5009626) - - - - - Repeat Episode HS: 1
+Performance Points: 9
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 501
+(501, 4262, 5014262) - NEW Episode HS: 1
+(501, 6408, 5016408) - - - - - Repeat Episode HS: 1
+(501, 8573, 5018573) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 502
+(502, 1160, 5021160) - NEW Episode HS: 1
+(502, 3649, 5023649) - - - - - Repeat Episode HS: 1
+(502, 3880, 5023880) - - - - - Repeat Episode HS: 1
+(502, 5407, 5025407) - - - - - Repeat Episode HS: 1
+(502, 6302, 5026302) - - - - - Repeat Episode HS: 1
+(502, 8213, 5028213) - - - - - Repeat Episode HS: 1
+(502, 9933, 5029933) - - - - - Repeat Episode HS: 1
+Performance Points: 7
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 503
+(503, 2382, 5032382) - NEW Episode HS: 1
+(503, 8515, 5038515) - - - - - Repeat Episode HS: 1
+(503, 8650, 5038650) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 504
+(504, 2325, 5042325) - NEW Episode HS: 1
+(504, 5840, 5045840) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 505
+(505, 3091, 5053091) - NEW Episode HS: 1
+(505, 4229, 5054229) - - - - - Repeat Episode HS: 1
+(505, 6081, 5056081) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 506
+(506, 3624, 5063624) - NEW Episode HS: 1
+(506, 7763, 5067763) - - - - - Repeat Episode HS: 1
+Performance Points: 2
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 507
+(507, 1116, 5071116) - NEW Episode HS: 1
+(507, 6860, 5076860) - - - - - Repeat Episode HS: 1
+(507, 7853, 5077853) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 508
+(508, 340, 5080340) - NEW Episode HS: 1
+(508, 651, 5080651) - - - - - Repeat Episode HS: 1
+(508, 2010, 5082010) - - - - - Repeat Episode HS: 1
+(508, 2372, 5082372) - - - - - Repeat Episode HS: 1
+(508, 4006, 5084006) - - - - - Repeat Episode HS: 1
+(508, 4737, 5084737) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 509
+(509, 1818, 5091818) - NEW Episode HS: 1
+(509, 3692, 5093692) - - - - - Repeat Episode HS: 1
+(509, 4043, 5094043) - - - - - Repeat Episode HS: 1
+(509, 4989, 5094989) - - - - - Repeat Episode HS: 1
+(509, 9577, 5099577) - - - - - Repeat Episode HS: 1
+(509, 9940, 5099940) - - - - - Repeat Episode HS: 1
+Performance Points: 6
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 510
+(510, 1909, 5101909) - NEW Episode HS: 1
+(510, 2334, 5102334) - - - - - Repeat Episode HS: 1
+(510, 6730, 5106730) - - - - - Repeat Episode HS: 1
+Performance Points: 3
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+CHECKPOINT: 511
+(511, 461, 5110461) - NEW Episode HS: 1
+(511, 1544, 5111544) - - - - - Repeat Episode HS: 1
+(511, 2221, 5112221) - - - - - Repeat Episode HS: 1
+(511, 5304, 5115304) - - - - - Repeat Episode HS: 1
+Performance Points: 4
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+Best Performance Points (320, 9619, 3209619): 11
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+Total Episodes: 3759050
+Terminated due to Collision w Self: 3753875, 99.86%
+Terminated due to Collision w Boundary: 5175, 0.14%
