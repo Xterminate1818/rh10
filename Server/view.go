@@ -11,6 +11,7 @@ type ViewPacket struct {
 	X      []float64 `json:"x"`
 	Y      []float64 `json:"y"`
 	R      []float64 `json:"r"`
+	Id     []int     `json:"id"`
 	Length int       `json:"length"`
 }
 
@@ -26,10 +27,12 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 		x := make([]float64, 0)
 		y := make([]float64, 0)
 		r := make([]float64, 0)
-		for _, v := range s.actors {
+		i := make([]int, 0)
+		for k, v := range s.actors {
 			x = append(x, v.Px)
 			y = append(y, v.Py)
 			r = append(r, v.Heading)
+			i = append(i, k)
 		}
 		length := len(s.actors)
 		time.Sleep(50 * time.Millisecond)
@@ -40,6 +43,7 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 				X:      x,
 				Y:      y,
 				R:      r,
+				Id:     i,
 				Length: length,
 			}
 		} else {
@@ -47,6 +51,7 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 				X:      x,
 				Y:      y,
 				R:      r,
+				Id:     i,
 				Length: length,
 			}
 		}

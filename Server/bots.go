@@ -28,8 +28,8 @@ func CheckOrigin(r *http.Request) bool {
 }
 
 var upgrader = websocket.Upgrader{
-	ReadBufferSize:  1024,
-	WriteBufferSize: 1024,
+	ReadBufferSize:  512,
+	WriteBufferSize: 512,
 	CheckOrigin:     CheckOrigin,
 }
 
@@ -92,8 +92,8 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		}
 		s.actors[id].reset(course.Track.X[0], course.Track.Y[0])
 		s.actors[id].check = 1
-		difx := course.Track.X[id] - s.actors[id].Px
-		dify := course.Track.Y[id] - s.actors[id].Py
+		difx := course.Track.X[0] - s.actors[id].Px
+		dify := course.Track.Y[0] - s.actors[id].Py
 		s.actors[id].Heading = math.Atan2(dify, difx)
 
 		// Send match start packet
