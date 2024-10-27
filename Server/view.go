@@ -35,12 +35,12 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 		if last_track != s.track_generation {
 			response = SendPacket{
 				Track:  s.track,
-				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
+				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, s.track.X[actor.check], s.track.Y[actor.check]},
 				Kind:   "reset",
 			}
 		} else {
 			response = SendPacket{
-				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
+				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, s.track.X[actor.check], s.track.Y[actor.check]},
 				Kind:   "continue",
 			}
 		}

@@ -13,6 +13,7 @@ socket.onmessage = function (e) {
   }   
   car.x = data.inputs[0];
   car.y = data.inputs[1];
+  console.log(data.inputs)
   drawTrack();
   drawCar();
   drawCircle(data.inputs[5], data.inputs[6], "rgb(0, 255, 0)")

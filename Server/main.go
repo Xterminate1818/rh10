@@ -35,6 +35,7 @@ type Actor struct {
 	Vy      float64
 	Heading float64
 	Time    int
+	check   int
 }
 type Server struct {
 	actors           []Actor
