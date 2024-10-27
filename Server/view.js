@@ -8,6 +8,7 @@ const car3 = new Image()
 car3.src = "/cars/3.png"
 const car4 = new Image()
 car4.src = "/cars/4.png"
+const cars = [car1, car2, car3, car4]
 
 let track = {x: [], y: [], length: 0};
 let id = -1;
@@ -19,8 +20,7 @@ socket.onmessage = function (e) {
   }
   drawTrack();
   for (let i = 0; i < data.length; i += 1) {
-    console.log(i)
-    drawCar(data.x[i], data.y[i], data.r[i])
+    drawCar(cars[i % 4], data.x[i], data.y[i], data.r[i] + (Math.PI / 2))
   }
 }
 
@@ -51,13 +51,12 @@ function drawTrack() {
   ctx.stroke();
 }
 
-function drawCar(x, y, angle) {
+function drawCar (car, positionX, positionY, angle ) {
   const canvas = document.getElementById("cv");
   const ctx = canvas.getContext("2d");
   ctx.save();
-  ctx.translate((x - 25), (y - 50));
-  ctx.rotate(angle);
-  ctx.drawImage(car1, 0, 0);
+  ctx.translate( positionX, positionY );
+  ctx.rotate( angle );
+  ctx.drawImage( car, -25, -50 );
   ctx.restore();
-  //drawCircle(x * mult, y * mult, "rgb(255, 0, 0)")
 }

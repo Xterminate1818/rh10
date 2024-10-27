@@ -92,6 +92,10 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		}
 		s.actors[id].reset(course.Track.X[0], course.Track.Y[0])
 		s.actors[id].check = 1
+		difx := course.Track.X[id] - s.actors[id].Px
+		dify := course.Track.Y[id] - s.actors[id].Py
+		s.actors[id].Heading = math.Atan2(dify, difx)
+
 		// Send match start packet
 		if err = conn.WriteJSON(course); err != nil {
 			fmt.Printf("Failed to send message: %s\n", err)
