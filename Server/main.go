@@ -21,7 +21,7 @@ const BREAK_MULT = 1.0
 const DISTANCE_THRESH = 10.0
 
 // Time steps before reset
-const GAME_TIME = 1000
+const GAME_TIME = 5000
 const MAX_DISTANCE = 200.0
 
 // Do not edit
