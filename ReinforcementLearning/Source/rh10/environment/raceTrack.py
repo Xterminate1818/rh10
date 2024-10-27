@@ -89,11 +89,11 @@ class RaceTrack(gym.Env):
         distance_change = prev_distance - current_distance  # Positive if getting closer, negative if further away
         
         # Reward based on change in distance
-        distance_reward = -1  # You can scale this reward if necessary
+        distance_reward = -current_distance  # You can scale this reward if necessary
 
         # Reward for target position change
         if (target_x != previous_target_x) or (target_y != previous_target_y):
-            target_change_reward = 2.0  # Reward for target position change
+            target_change_reward = 50.0  # Reward for target position change
         else:
             target_change_reward = 0.0  # No reward if target position hasn't changed
 
