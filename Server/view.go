@@ -20,18 +20,18 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 	}
 	last_track := s.track_generation
 	for {
-		time.Sleep(300 * time.Millisecond)
+		time.Sleep(50 * time.Millisecond)
 		var actor = s.actors[0]
 		response := SendPacket{}
 		if last_track != s.track_generation {
 			response = SendPacket{
 				Track:  s.track,
-				Inputs: [8]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
+				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
 				Kind:   "reset",
 			}
 		} else {
 			response = SendPacket{
-				Inputs: [8]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
+				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy},
 				Kind:   "continue",
 			}
 		}

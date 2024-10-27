@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/websocket"
 	"math"
 	"net/http"
+
+	"github.com/gorilla/websocket"
 )
 
 type SendPacket struct {
 	Track    Track      `json:"track"`
-	Inputs   [8]float64 `json:"inputs"`
+	Inputs   [7]float64 `json:"inputs"`
 	Kind     string     `json:"kind"`
 	Waypoint bool       `json:"waypoint-get"`
 	Id       int        `json:"id"`
@@ -33,26 +34,22 @@ var upgrader = websocket.Upgrader{
 }
 
 func (a *Actor) updatePosition(throttle, steer, breaking float64) {
-	const air_resistance = 0.95
-	const steer_amount = 1.5
-	const throttle_mult = 1.0
-	const break_mult = 1.0
 	// Apply air resistance
-	a.Vx = a.Vx * air_resistance
-	a.Vy = a.Vy * air_resistance
+	a.Vx = a.Vx * AIR_RESISTANCE
+	a.Vy = a.Vy * AIR_RESISTANCE
 	// Prevent divide by zero
 	if a.Vx != 0 || a.Vy != 0 {
 		// Apply breaks
 		magnitude := math.Sqrt(a.Vx*a.Vx + a.Vy*a.Vy)
-		a.Vx -= (a.Vx / magnitude) * breaking * break_mult
-		a.Vy -= (a.Vy / magnitude) * breaking * break_mult
+		a.Vx -= (a.Vx / magnitude) * breaking * BREAK_MULT
+		a.Vy -= (a.Vy / magnitude) * breaking * BREAK_MULT
 	}
 	// Adjust heading
 	steer = (steer - 0.5) * 2.0
-	a.Heading += steer * steer_amount
+	a.Heading += steer * STEER_MULT
 	// Apply throttle
-	a.Vx += math.Cos(a.Heading) * throttle * throttle_mult
-	a.Vy += math.Sin(a.Heading) * throttle * throttle_mult
+	a.Vx += math.Cos(a.Heading) * throttle * THROTTLE_MULT
+	a.Vy += math.Sin(a.Heading) * throttle * THROTTLE_MULT
 	a.Px += a.Vx
 	a.Py += a.Vy
 	a.Time += 1
@@ -67,12 +64,10 @@ func (a *Actor) reset(x, y float64) {
 	a.Time = 0
 }
 
-const DISTANCE_THRESH = 10.0
-const GAME_TIME = 10
-
 func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 	// Upgrade connection
 	conn, err := upgrader.Upgrade(w, r, nil)
+	defer conn.Close()
 	if err != nil {
 		fmt.Printf("Failed opening web socket: %s\n", err)
 		return
@@ -82,6 +77,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 	if err = conn.ReadJSON(&init); err != nil {
 		fmt.Printf("Failed to receive first packet: %s\n", err)
 	}
+	fmt.Printf("Init packet: %v\n", init)
 	fmt.Printf("Started connection to %s\n", conn.RemoteAddr())
 	id, connection := s.requestActor(Actor{}, init.Id)
 	waypoint := 1
@@ -91,7 +87,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		track := s.requestTrack(s.generations[id])
 		course := SendPacket{
 			Track:  track,
-			Inputs: [8]float64{track.X[0], track.Y[0]},
+			Inputs: [7]float64{track.X[0], track.Y[0]},
 			Kind:   "reset",
 			Id:     id,
 		}
@@ -101,11 +97,12 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			fmt.Printf("Failed to send message: %s\n", err)
 			return
 		}
+		fmt.Printf("Sent reset packet\n")
 		// Start event loop
 		for {
 			waypoint_get := false
 			if connection != s.connection_num[id] {
-				fmt.Printf("Two clients requested ID $d, evicted old one\n", id)
+				fmt.Printf("Two clients requested ID %d, evicted old one\n", id)
 				return
 			}
 			actor := &s.actors[id]
@@ -115,6 +112,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				fmt.Printf("Failed to read message: %s\n", err)
 				return
 			}
+			fmt.Printf("Received packet: %v\n", received)
 			// Calculate new position
 			actor.updatePosition(received.Throttle, received.Steer, received.Breaking)
 			// Check for waypoint get
@@ -132,7 +130,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				break
 			}
 			var response = SendPacket{
-				Inputs:   [8]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, track.X[waypoint], track.Y[waypoint]},
+				Inputs:   [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, track.X[waypoint], track.Y[waypoint]},
 				Kind:     "update",
 				Waypoint: waypoint_get,
 				Id:       id,
@@ -142,20 +140,23 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				fmt.Printf("Failed to send message: %s\n", err)
 				return
 			}
+			fmt.Printf("Sent packet: %v\n", response)
 		} // </gameloop>
 		// Wait for all actors to catch up
 		s.generations[id] += 1
 		gen := s.generations[id]
 		fmt.Printf("Finished generation %d\n", gen)
-		for {
-			for i := 0; i < len(s.generations); i += 1 {
-				if gen > s.generations[i] || (i == id && len(s.generations) > 1) {
-					continue
+		/*
+				for {
+					for i := 0; i < len(s.generations); i += 1 {
+						if gen > s.generations[i] || (i == id && len(s.generations) > 1) {
+							continue
+						}
+						goto escape
+					}
 				}
-				goto escape
-			}
-		}
-		// Start next generation
-	escape:
+				// Start next generation
+			escape:
+		*/
 	}
 }
