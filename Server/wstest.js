@@ -9,7 +9,7 @@ socket.onopen = function(e) {
     throttle: 0.0,
     steer: 0.0,
     breaking: 0.0,
-    id: -1,
+    id: 0,
   }));
 }
 

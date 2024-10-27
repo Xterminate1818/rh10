@@ -6,44 +6,51 @@ import (
 	"time"
 )
 
+type ViewPacket struct {
+	Track  Track     `json:"track"`
+	X      []float64 `json:"x"`
+	Y      []float64 `json:"y"`
+	R      []float64 `json:"r"`
+	Length int       `json:"length"`
+}
+
 func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 	conn, err := upgrader.Upgrade(w, r, nil)
 	if err != nil {
-		fmt.Printf("Failed opening web socket: %s\n", err)
+		fmt.Printf("Error: %v\n", err)
 		return
 	}
-	response := SendPacket{
-		Track:  s.track,
-		Inputs: [7]float64{0.0, 0.0, 0.0, 0.0, 0.0, 100.0, 100.0},
-		Kind:   "reset",
-	}
-	if e := conn.WriteJSON(response); e != nil {
-		fmt.Printf("Error in viewer: %s\n", e)
-	}
-
-	// Wait for connection
-	for {
-		if len(s.actors) != 0 {
-			break
-		}
-	}
+	first := true
 	last_track := s.track_generation
 	for {
+		x := make([]float64, 0)
+		y := make([]float64, 0)
+		r := make([]float64, 0)
+		for _, v := range s.actors {
+			x = append(x, v.Px)
+			y = append(y, v.Py)
+			r = append(r, v.Heading)
+		}
+		length := len(s.actors)
 		time.Sleep(50 * time.Millisecond)
-		var actor = s.actors[0]
-		response := SendPacket{}
-		if last_track != s.track_generation {
-			response = SendPacket{
+		response := ViewPacket{}
+		if last_track != s.track_generation || first {
+			response = ViewPacket{
 				Track:  s.track,
-				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, s.track.X[actor.check], s.track.Y[actor.check]},
-				Kind:   "reset",
+				X:      x,
+				Y:      y,
+				R:      r,
+				Length: length,
 			}
 		} else {
-			response = SendPacket{
-				Inputs: [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, s.track.X[actor.check], s.track.Y[actor.check]},
-				Kind:   "continue",
+			response = ViewPacket{
+				X:      x,
+				Y:      y,
+				R:      r,
+				Length: length,
 			}
 		}
+		first = false
 		if e := conn.WriteJSON(response); e != nil {
 			fmt.Printf("Error in viewer: %s\n", e)
 		}

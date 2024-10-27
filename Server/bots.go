@@ -79,7 +79,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		fmt.Printf("Failed to receive first packet: %s\n", err)
 	}
 	fmt.Printf("Started connection to %s\n", conn.RemoteAddr())
-	id, connection := s.requestActor(Actor{}, init.Id)
+	id := s.requestActor(Actor{}, init.Id)
 	// Start game
 	for {
 		// Generate track
@@ -100,11 +100,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		// Start event loop
 		for {
 			waypoint_get := false
-			if connection != s.connection_num[id] {
-				fmt.Printf("Two clients requested ID %d, evicted old one\n", id)
-				return
-			}
-			actor := &s.actors[id]
+			actor := s.actors[id]
 			// Block on model sending update
 			var received = ReceivePacket{}
 			if err = conn.ReadJSON(&received); err != nil {

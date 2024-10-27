@@ -1,22 +1,27 @@
 const socket = new WebSocket("ws://localhost:8080/view");
+const mult = 1
+const car1 = new Image()
+car1.src = "/cars/1.png"
+const car2 = new Image()
+car2.src = "/cars/2.png"
+const car3 = new Image()
+car3.src = "/cars/3.png"
+const car4 = new Image()
+car4.src = "/cars/4.png"
 
 let track = {x: [], y: [], length: 0};
-let car = {x: 10.0, y: 10.0};
 let id = -1;
 
 socket.onmessage = function (e) {
   let data = JSON.parse(e.data);
-  id = data.id;
-  console.log(data);
-  if (data.kind == "reset") {
-    track = data.track;
-  }   
-  car.x = data.inputs[0];
-  car.y = data.inputs[1];
-  console.log(data.inputs)
+  if (data.track.x != null) {
+    track = data.track
+  }
   drawTrack();
-  drawCar();
-  drawCircle(data.inputs[5], data.inputs[6], "rgb(0, 255, 0)")
+  for (let i = 0; i < data.length; i += 1) {
+    console.log(i)
+    drawCar(data.x[i], data.y[i], data.r[i])
+  }
 }
 
 function drawCircle(x, y, color) {
@@ -38,14 +43,21 @@ function drawTrack() {
   ctx.moveTo(track.x[0], track.x[0]);
   ctx.beginPath();
   for (let p = 0; p < track.length; p += 1) {
-    ctx.lineTo(track.x[p], track.y[p]);
-    ctx.moveTo(track.x[p], track.y[p]);
+    ctx.lineTo(track.x[p] * mult, track.y[p] * mult);
+    ctx.moveTo(track.x[p] * mult, track.y[p] * mult);
     ctx.stroke();
   }
-  ctx.lineTo(track.x[0], track.y[0]);
+  ctx.lineTo(track.x[0] * mult, track.y[0] * mult);
   ctx.stroke();
 }
 
-function drawCar() {
-  drawCircle(car.x, car.y, "rgb(255, 0, 0)")
+function drawCar(x, y, angle) {
+  const canvas = document.getElementById("cv");
+  const ctx = canvas.getContext("2d");
+  ctx.save();
+  ctx.translate((x - 25), (y - 50));
+  ctx.rotate(angle);
+  ctx.drawImage(car1, 0, 0);
+  ctx.restore();
+  //drawCircle(x * mult, y * mult, "rgb(255, 0, 0)")
 }

@@ -9,8 +9,8 @@ import (
 )
 
 // Track params
-const TRACK_MEAN_RADIUS = 100.0
-const TRACK_STD_DEVIATION = 20.0
+const TRACK_MEAN_RADIUS = 140.0
+const TRACK_STD_DEVIATION = 40.0
 const TRACK_SEGMENTS = 10
 
 // Physics params
@@ -25,8 +25,8 @@ const GAME_TIME = 1000
 const MAX_DISTANCE = 200.0
 
 // Do not edit
-const CANVAS_ORIGIN_X = 250.0 - TRACK_MEAN_RADIUS
-const CANVAS_ORIGIN_Y = 250.0 - TRACK_MEAN_RADIUS
+const CANVAS_ORIGIN_X = 400.0 - TRACK_MEAN_RADIUS
+const CANVAS_ORIGIN_Y = 400.0 - TRACK_MEAN_RADIUS
 
 type Actor struct {
 	Px      float64
@@ -38,27 +38,20 @@ type Actor struct {
 	check   int
 }
 type Server struct {
-	actors           []Actor
-	generations      []int
+	actors           map[int]*Actor
+	generations      map[int]int
 	track            Track
 	track_generation int
 	connection_num   []int
 	append_lock      sync.Mutex
 }
 
-func (s *Server) requestActor(a Actor, id int) (int, int) {
+func (s *Server) requestActor(a Actor, id int) int {
 	s.append_lock.Lock()
 	defer s.append_lock.Unlock()
-	if id == -1 || id >= len(s.actors) {
-		index := len(s.actors)
-		s.actors = append(s.actors, a)
-		s.generations = append(s.generations, 0)
-		s.connection_num = append(s.connection_num, 0)
-		return index, 0
-	} else {
-		s.connection_num[id] += 1
-		return id, s.connection_num[id]
-	}
+	s.actors[id] = &a
+	s.generations[id] = 0
+	return id
 }
 
 func (s *Server) requestTrack(id int) Track {
@@ -96,7 +89,11 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	s := Server{track: generate_track()}
+	s := Server{
+		track:       generate_track(),
+		actors:      make(map[int]*Actor),
+		generations: make(map[int]int),
+	}
 	files := http.FileServer(http.Dir("./"))
 	http.Handle("/", files)
 	http.HandleFunc("/view", s.view)
