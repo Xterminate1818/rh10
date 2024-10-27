@@ -12,6 +12,15 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 		fmt.Printf("Failed opening web socket: %s\n", err)
 		return
 	}
+	response := SendPacket{
+		Track:  s.track,
+		Inputs: [7]float64{},
+		Kind:   "reset",
+	}
+	if e := conn.WriteJSON(response); e != nil {
+		fmt.Printf("Error in viewer: %s\n", e)
+	}
+
 	// Wait for connection
 	for {
 		if len(s.actors) != 0 {

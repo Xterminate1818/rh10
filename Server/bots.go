@@ -97,7 +97,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			fmt.Printf("Failed to send message: %s\n", err)
 			return
 		}
-		fmt.Printf("Sent reset packet\n")
 		// Start event loop
 		for {
 			waypoint_get := false
@@ -122,6 +121,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			if distance <= DISTANCE_THRESH {
 				waypoint += 1
 				waypoint %= track.Length
+				fmt.Printf("Got waypoint %d", waypoint)
 				waypoint_get = true
 			}
 
@@ -145,7 +145,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				fmt.Printf("Failed to send message: %s\n", err)
 				return
 			}
-			fmt.Printf("Sent packet: %v\n", response)
 		} // </gameloop>
 		// Wait for all actors to catch up
 		s.generations[id] += 1
