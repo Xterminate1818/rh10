@@ -138,7 +138,7 @@ There are more detailed steps in the experiment directories but in general...
 - select, "Enter interpreter path..."
 - select, "Find..."
 - navigate to VENV -> sentdexrltutorials -> Scripts and then select, "python.exe"
-- Open any Python script in VS Code and in the bottom right of the window you should see that the Python version now has a ```(sentdexrltutorials)``` appended to it, this means that VS Code has "activated" the VENV similar to how you activated it in the terminal
+- Open any Python script in VS Code and in the bottom right of the window you should see that the Python version now has a ```(reinforcementlearning)``` appended to it, this means that VS Code has "activated" the VENV similar to how you activated it in the terminal
 - Open any Python script and click the play icon in the top-right of the window
     - **Warning:** Some scripts aren't meant to be run, but rather called, make sure you're running scripts that are meant to be run
 
