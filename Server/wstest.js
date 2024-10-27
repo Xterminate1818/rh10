@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://192.168.0.20:8080/bots");
+const socket = new WebSocket("ws://localhost:8080/bots");
 
 let track = {x: [], y: [], length: 0};
 let car = {x: 10.0, y: 10.0};

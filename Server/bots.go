@@ -125,6 +125,11 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				waypoint_get = true
 			}
 
+			if distance >= MAX_DISTANCE {
+				fmt.Println("Exceeded max distance, resetting")
+				break
+			}
+
 			// Advance to next game if time up
 			if actor.Time >= GAME_TIME {
 				break

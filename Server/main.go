@@ -21,7 +21,8 @@ const BREAK_MULT = 1.0
 const DISTANCE_THRESH = 10.0
 
 // Time steps before reset
-const GAME_TIME = 100
+const GAME_TIME = 1000
+const MAX_DISTANCE = 400.0
 
 // Do not edit
 const CANVAS_ORIGIN_X = 250.0 - TRACK_MEAN_RADIUS
