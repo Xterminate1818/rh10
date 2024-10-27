@@ -91,6 +91,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			Id:     id,
 		}
 		s.actors[id].reset(course.Track.X[0], course.Track.Y[0])
+		s.actors[id].check = 1
 		// Send match start packet
 		if err = conn.WriteJSON(course); err != nil {
 			fmt.Printf("Failed to send message: %s\n", err)
@@ -116,6 +117,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			dx := track.X[actor.check] - actor.Px
 			dy := track.Y[actor.check] - actor.Py
 			distance := math.Sqrt(dx*dx + dy*dy)
+			fmt.Printf("Check: %v\n", actor.check)
 			if distance <= DISTANCE_THRESH {
 				actor.check += 1
 				actor.check %= track.Length
@@ -125,11 +127,13 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 
 			if distance >= MAX_DISTANCE {
 				fmt.Println("Exceeded max distance, resetting")
+				actor.check = 1
 				break
 			}
 
 			// Advance to next game if time up
 			if actor.Time >= GAME_TIME {
+				actor.check = 1
 				break
 			}
 			var response = SendPacket{
