@@ -13,16 +13,18 @@ socket.onmessage = function (e) {
   }   
   car.x = data.inputs[0];
   car.y = data.inputs[1];
+  console.log(data.inputs)
   drawTrack();
   drawCar();
+  drawCircle(data.inputs[5], data.inputs[6], "rgb(0, 255, 0)")
 }
 
-function drawCircle(x, y) {
+function drawCircle(x, y, color) {
   const canvas = document.getElementById("cv");
   const ctx = canvas.getContext("2d");
-  ctx.strokeStyle = "rgb(255, 0, 0)";
+  ctx.strokeStyle = color;
   ctx.beginPath();
-  ctx.arc(car.x, car.y, 10.0, 0, 2 * Math.PI);
+  ctx.arc(x, y, 10.0, 0, 2 * Math.PI);
   ctx.stroke();
 }
 
@@ -45,5 +47,5 @@ function drawTrack() {
 }
 
 function drawCar() {
-  drawCircle(car.x, car.y)
+  drawCircle(car.x, car.y, "rgb(255, 0, 0)")
 }

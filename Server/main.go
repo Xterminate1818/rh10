@@ -22,7 +22,7 @@ const DISTANCE_THRESH = 10.0
 
 // Time steps before reset
 const GAME_TIME = 1000
-const MAX_DISTANCE = 400.0
+const MAX_DISTANCE = 200.0
 
 // Do not edit
 const CANVAS_ORIGIN_X = 250.0 - TRACK_MEAN_RADIUS
@@ -35,6 +35,7 @@ type Actor struct {
 	Vy      float64
 	Heading float64
 	Time    int
+	check   int
 }
 type Server struct {
 	actors           []Actor
@@ -48,13 +49,6 @@ type Server struct {
 func (s *Server) requestActor(a Actor, id int) (int, int) {
 	s.append_lock.Lock()
 	defer s.append_lock.Unlock()
-	/*
-		s.actors = make([]Actor, 1)
-		s.actors[0] = a
-		s.connection_num = make([]int, 1)
-		s.connection_num[0] = 0
-		return 0, 0
-	*/
 	if id == -1 || id >= len(s.actors) {
 		index := len(s.actors)
 		s.actors = append(s.actors, a)

@@ -80,7 +80,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("Init packet: %v\n", init)
 	fmt.Printf("Started connection to %s\n", conn.RemoteAddr())
 	id, connection := s.requestActor(Actor{}, init.Id)
-	waypoint := 1
 	// Start game
 	for {
 		// Generate track
@@ -97,7 +96,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			fmt.Printf("Failed to send message: %s\n", err)
 			return
 		}
-		fmt.Printf("Sent reset packet\n")
 		// Start event loop
 		for {
 			waypoint_get := false
@@ -116,12 +114,13 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 			// Calculate new position
 			actor.updatePosition(received.Throttle, received.Steer, received.Breaking)
 			// Check for waypoint get
-			dx := track.X[waypoint] - actor.Px
-			dy := track.Y[waypoint] - actor.Py
+			dx := track.X[actor.check] - actor.Px
+			dy := track.Y[actor.check] - actor.Py
 			distance := math.Sqrt(dx*dx + dy*dy)
 			if distance <= DISTANCE_THRESH {
-				waypoint += 1
-				waypoint %= track.Length
+				actor.check += 1
+				actor.check %= track.Length
+				fmt.Printf("Got waypoint %d", actor.check)
 				waypoint_get = true
 			}
 
@@ -135,7 +134,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				break
 			}
 			var response = SendPacket{
-				Inputs:   [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, track.X[waypoint], track.Y[waypoint]},
+				Inputs:   [7]float64{actor.Px, actor.Py, actor.Heading, actor.Vx, actor.Vy, track.X[actor.check], track.Y[actor.check]},
 				Kind:     "update",
 				Waypoint: waypoint_get,
 				Id:       id,
@@ -145,7 +144,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				fmt.Printf("Failed to send message: %s\n", err)
 				return
 			}
-			fmt.Printf("Sent packet: %v\n", response)
 		} // </gameloop>
 		// Wait for all actors to catch up
 		s.generations[id] += 1
