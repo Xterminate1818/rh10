@@ -5,11 +5,19 @@ import json
 var = []
 
 async def test():
+    #websocket = await websockets.connect('ws://localhost:8080/bots')
     websocket = await websockets.connect('ws://192.168.0.20:8080/bots')
-    try:
-        await websocket.send(json.dumps({"op": "subscribe", "args": "test"}))
-    finally:
-        await websocket.close()
+
+    await websocket.send(json.dumps({"throttle": 0.0, "steer": 0.0, "breaking": 0.0, "id":-1}))
+
+    response = await websocket.recv()
+    print(response)
+
+    # try:
+    #     await websocket.send(json.dumps({"throttle": 0.0, "steer": 0.0, "breaking": 0.0, "id":-1}))
+    # finally:
+    #     #await websocket.close()
+    #     print("sent!")
 
 asyncio.run(test())
 
