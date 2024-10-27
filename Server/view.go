@@ -14,7 +14,7 @@ func (s *Server) view(w http.ResponseWriter, r *http.Request) {
 	}
 	response := SendPacket{
 		Track:  s.track,
-		Inputs: [7]float64{},
+		Inputs: [7]float64{0.0, 0.0, 0.0, 0.0, 0.0, 100.0, 100.0},
 		Kind:   "reset",
 	}
 	if e := conn.WriteJSON(response); e != nil {

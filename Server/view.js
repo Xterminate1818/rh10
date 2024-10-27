@@ -23,7 +23,7 @@ function drawCircle(x, y, color) {
   const ctx = canvas.getContext("2d");
   ctx.strokeStyle = color;
   ctx.beginPath();
-  ctx.arc(car.x, car.y, 10.0, 0, 2 * Math.PI);
+  ctx.arc(x, y, 10.0, 0, 2 * Math.PI);
   ctx.stroke();
 }
 
