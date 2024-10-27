@@ -29,7 +29,7 @@ env = RaceTrack(
     render_run_str      =   run_str, 
     render_mode         =   "human"
 )
-env.reset()
+#env.reset()
 
 # Instantiate the engine algorithm
 model = ALGO(

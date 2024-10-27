@@ -29,6 +29,7 @@ class RaceTrack(gym.Env):
         
         print("init")
         self.dontREAD = 0
+        self.resetFLAG = 0
         self.x_pos = 0
         self.y_pos = 0
         self.heading = 0
@@ -41,9 +42,11 @@ class RaceTrack(gym.Env):
         self.loop = asyncio.get_event_loop()    #Establish async loop for websocket operations
 
         # Connect to WebSocket Server Asynchronously
+        print("CONECTING TO SERVER")
         self.loop.run_until_complete(self.connect_to_server('ws://192.168.0.20:8080/bots'))
         
         # Send Init Packet
+        print("SENDING INIT PACKET")
         self.loop.run_until_complete(self.send_packet())
         
         self.truncated = False
@@ -75,7 +78,7 @@ class RaceTrack(gym.Env):
             print("WEBSOCKET LOST")
 
     def step(self, action):
-        print(f"id {self.id}")
+        #print(f"id {self.id}")
 
         #SEND ACTIONS FIRST
         throttle, steer, braking = action
@@ -94,6 +97,11 @@ class RaceTrack(gym.Env):
         self.targ_x = data.get("inputs", [0])[5]
         self.targ_y = data.get("inputs", [0])[6]
 
+        if data.get("kind") == "reset":
+            print("RESET RECEIVED")
+            self.resetFLAG = 1
+            self.terminated = True
+
         self.observation = [self.x_pos, self.y_pos, self.heading, self.vel_x, self.vel_y, self.targ_x, self.targ_y]
         self.observation = np.array(self.observation)
 
@@ -107,16 +115,20 @@ class RaceTrack(gym.Env):
         if self.render_mode == "human":
             self.render()
 
-        self.reward = 0
+        self.reward = 1
 
         return self.observation, self.reward, self.terminated, self.truncated, self.info
 
     def reset(self, seed=None, options=None):
         print("reset")
-
+        print(f"DONTREAD: {self.dontREAD}")
         server_response = '{"track":{"x":[253.73350286732244,232.65372999676703,185.78904340692844,114.54893270390353,51.607027149532,22.6053371974956,35.54465128765794,115.9841565350986,163.20853281635732,220.24615269032782],"y":[150,210.05144994092365,260.1473497047542,259.1071661924882,221.48667923274186,150.00000000000003,66.84332160279989,45.30999856494262,109.34831600085795,98.96318264171863],"length":10},"inputs":[253.73350286732244,150,0,0,0,0,0],"kind":"reset","waypoint-get":false,"id":3}'
         if self.dontREAD == 0:
+            if self.websocket:
+                self.websocket.close() #MAYBE THIS
             self.dontREAD = 1
+        elif self.resetFLAG == 1:
+            self.resetFLAG = 0
         else:
             server_response = self.loop.run_until_complete(self.receive_packet())
             data = json.loads(server_response)   
@@ -146,6 +158,7 @@ class RaceTrack(gym.Env):
         return self.observation, self.info
 
     def close(self):
+        print("CLOSE RAN")
         if self.websocket:
             self.loop.run_until_complete(self.websocket.close())
         return super().close()
