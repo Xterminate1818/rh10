@@ -62,6 +62,7 @@ func (a *Actor) reset(x, y float64) {
 	a.Vy = 0
 	a.Heading = 0
 	a.Time = 0
+	a.check = 1
 }
 
 func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
@@ -77,7 +78,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 	if err = conn.ReadJSON(&init); err != nil {
 		fmt.Printf("Failed to receive first packet: %s\n", err)
 	}
-	fmt.Printf("Init packet: %v\n", init)
 	fmt.Printf("Started connection to %s\n", conn.RemoteAddr())
 	id, connection := s.requestActor(Actor{}, init.Id)
 	// Start game
@@ -86,7 +86,7 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 		track := s.requestTrack(s.generations[id])
 		course := SendPacket{
 			Track:  track,
-			Inputs: [7]float64{track.X[0], track.Y[0]},
+			Inputs: [7]float64{track.X[0], track.Y[0], 0.0, 0.0, 0.0, track.X[1], track.Y[1]},
 			Kind:   "reset",
 			Id:     id,
 		}
@@ -110,7 +110,6 @@ func (s *Server) handle_bots(w http.ResponseWriter, r *http.Request) {
 				fmt.Printf("Failed to read message: %s\n", err)
 				return
 			}
-			fmt.Printf("Received packet: %v\n", received)
 			// Calculate new position
 			actor.updatePosition(received.Throttle, received.Steer, received.Breaking)
 			// Check for waypoint get
