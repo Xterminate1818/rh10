@@ -9,6 +9,7 @@ from pathlib import Path
 import asyncio
 import websockets
 import json
+import math
 
 class RaceTrack(gym.Env):
     metadata = {
@@ -37,13 +38,16 @@ class RaceTrack(gym.Env):
         self.vel_y = 0
         self.targ_x = 0
         self.targ_y = 0
+        self.previous_distance = 0
+        self.previous_target_x = 0
+        self.previous_target_y = 0
         self.id = -1
         self.websocket = None                   #Buffer for the websocket obj
         self.loop = asyncio.get_event_loop()    #Establish async loop for websocket operations
 
         # Connect to WebSocket Server Asynchronously
         print("CONECTING TO SERVER")
-        self.loop.run_until_complete(self.connect_to_server('ws://192.168.0.20:8080/bots'))
+        self.loop.run_until_complete(self.connect_to_server('ws://localhost:8080/bots'))
         
         # Send Init Packet
         print("SENDING INIT PACKET")
@@ -77,11 +81,37 @@ class RaceTrack(gym.Env):
         else:
             print("WEBSOCKET LOST")
 
+    def calculate_reward(self, x_pos, y_pos, target_x, target_y, prev_distance, previous_target_x, previous_target_y):
+        # Calculate the current distance to the target
+        current_distance = math.sqrt((target_x - x_pos)**2 + (target_y - y_pos)**2)
+        
+        # Calculate change in distance
+        distance_change = prev_distance - current_distance  # Positive if getting closer, negative if further away
+        
+        # Reward based on change in distance
+        distance_reward = -current_distance  # You can scale this reward if necessary
+
+        # Reward for target position change
+        if (target_x != previous_target_x) or (target_y != previous_target_y):
+            target_change_reward = 50.0  # Reward for target position change
+        else:
+            target_change_reward = 0.0  # No reward if target position hasn't changed
+
+        # Combine the rewards (adjust weighting as necessary)
+        total_reward = distance_reward + target_change_reward  # Sum all rewards
+
+        self.previous_target_x = self.targ_x
+        self.previous_target_y = self.targ_y
+        self.previous_distance = current_distance
+
+        return total_reward
+
     def step(self, action):
         #print(f"id {self.id}")
 
         #SEND ACTIONS FIRST
         throttle, steer, braking = action
+        #print(f"throttle: {throttle}, steer: {steer}, braking: {braking}")
         self.loop.run_until_complete(self.send_packet(throttle=throttle, steer=steer, braking=braking, id=self.id))
 
         #THEN PARSE NEW ENV STATE
@@ -115,15 +145,18 @@ class RaceTrack(gym.Env):
         if self.render_mode == "human":
             self.render()
 
-        self.reward = 1
+        self.reward = self.calculate_reward(self.x_pos, self.y_pos, self.targ_x, self.targ_y, self.previous_distance, self.previous_target_x, self.previous_target_y)
 
         return self.observation, self.reward, self.terminated, self.truncated, self.info
 
     def reset(self, seed=None, options=None):
         print("reset")
-        print(f"DONTREAD: {self.dontREAD}")
+        #print(f"DONTREAD: {self.dontREAD}")
         server_response = '{"track":{"x":[253.73350286732244,232.65372999676703,185.78904340692844,114.54893270390353,51.607027149532,22.6053371974956,35.54465128765794,115.9841565350986,163.20853281635732,220.24615269032782],"y":[150,210.05144994092365,260.1473497047542,259.1071661924882,221.48667923274186,150.00000000000003,66.84332160279989,45.30999856494262,109.34831600085795,98.96318264171863],"length":10},"inputs":[253.73350286732244,150,0,0,0,0,0],"kind":"reset","waypoint-get":false,"id":3}'
         if self.dontREAD == 0:
+            server_response = self.loop.run_until_complete(self.receive_packet())
+            data = json.loads(server_response)            
+            self.id = data.get("id")
             if self.websocket:
                 self.websocket.close() #MAYBE THIS
             self.dontREAD = 1
@@ -139,7 +172,10 @@ class RaceTrack(gym.Env):
             self.vel_x = data.get("inputs", [0])[3]
             self.vel_y = data.get("inputs", [0])[4]
             self.targ_x = data.get("inputs", [0])[5]
+            self.previous_target_x = self.targ_x
             self.targ_y = data.get("inputs", [0])[6]
+            self.previous_target_y = self.targ_y
+            self.previous_distance = math.sqrt((self.targ_x - self.x_pos)**2 + (self.targ_y - self.y_pos)**2)
             self.id = data.get("id")
 
         self.terminated = False
